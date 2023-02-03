@@ -84,6 +84,10 @@ export default {
                                                         @click="this.selected = thongTinDangKy"></i>
                                                 </a>
 
+
+
+
+                                                
                                                 <div>
                                                     <div v-if="this.selected != null" class="modal fade"
                                                         id="exampleModal" tabindex="-1" role="dialog"
