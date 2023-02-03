@@ -20,18 +20,33 @@ export default {
 
 <template>
     <header>
+        <div class="bg-header ">
+            <!-- <router-link :to="{ name: 'Home' }">
+                <img src="../assets/images/PhongCongTacSinhVien.png" height="" class="img-fluid mx-auto d-block "
+                    alt="">
+
+            </router-link> -->
+            <p class="text-center pt-2 pb-2 text-light main-title">
+                
+                <b>PHÒNG KHÁM THÚ Y HUẾ MINH</b>
+                
+            </p>
+
+        </div> 
         <div>
             <div class="pre-nav row text-center pre-nav m-0 " style="padding-top: 15px;">
                 <div class="col-3">
-
+                    <img src="../assets/images/logo_cat.jpg"  class="img-logo" alt="">
                 </div>
                 <p class="col-6 row"></p>
-                <div class="row col-3 d-flex justify-content-end pe-5 pt-6">
+                <div class="row col-3 d-flex justify-content-end ">
 
                     <div v-if="taikhoan.user.TenTaiKhoan == null" class="col">
-                        <div class=" justify-content-end">
+                        <div class=" justify-content-end row p-0">
 
-                            <router-link class="nav-link text-dark" :to="{ name: 'Login' }">Đăng nhập</router-link>
+                            <router-link class="nav-link text-dark col-5" :to="{ name: 'Login' }">Đăng nhập</router-link>| 
+                            &nbsp  <i class="fa-solid fa-bell"></i>
+                             <!-- <i class=" fa-solid fa-cart-shopping col-2"> </i> -->
 
                         </div>
                     </div>
@@ -52,17 +67,10 @@ export default {
 
         </div>
 
-        <div class="bg-header">
-            <router-link :to="{ name: 'Home' }">
-                <img src="../assets/images/PhongCongTacSinhVien.png" height="" class="img-fluid mx-auto d-block "
-                    alt="">
+        
 
-            </router-link>
-
-        </div>
-
-        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-light ftco-navbar-light" id="ftco-navbar">
-            <div class="container-fluid t">
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-header ftco-navbar-light" id="ftco-navbar">
+            <div class="container-fluid ">
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
                     aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,10 +87,13 @@ export default {
                                 <router-link class="nav-link text-dark" :to="{ name: 'Intro' }">Giới thiệu</router-link>
                             </a></li>
                         <li class="nav-item"><a href="#">
-                                <router-link class="nav-link text-dark" :to="{ name: 'Notify' }">Thông báo</router-link>
+                                <router-link class="nav-link text-dark" :to="{ name: 'Service' }">Dịch vụ</router-link>
                             </a></li>
                         <li class="nav-item active"><a href="#" class="">
-                                <router-link class="nav-link text-dark" :to="{ name: 'Forms' }">Biểu mẫu</router-link>
+                                <router-link class="nav-link text-dark" :to="{ name: 'Forms' }">Liên hệ</router-link>
+                            </a></li>
+                            <li class="nav-item active"><a href="#" class="">
+                                <router-link class="nav-link text-dark" :to="{ name: 'Forms' }">Đặt lịch</router-link>
                             </a></li>
 
 
@@ -102,6 +113,10 @@ export default {
     margin: 1% 2% 0;
     padding: 0 1%;
 }
+.main-title{
+    letter-spacing: 2px;
+}
+
 
 .nav {
     display: flex;
@@ -116,6 +131,11 @@ export default {
 
 .bg-color {
     background-color: #000;
+}
+.img-logo{
+    height: 0px;
+    margin-left: 10px;
+   
 }
 
 .search-bg {

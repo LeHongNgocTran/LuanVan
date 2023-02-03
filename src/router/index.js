@@ -4,10 +4,11 @@ import { userAccStore } from "@/Store/userStore";
 
 import Home from "@/views/home.vue";
 import Login from "@/views/login.vue";
-import Notify from "@/views/notify.vue";
+import Register from "@/views/register.vue";
+import Service from "@/views/service.vue";
 import Intro from "@/views/intro.vue";
 import Forms from "@/views/forms.vue";
-
+import PhysicalExamination from "@/views/physicalExamination.vue";
 //admin
 import ADMIN from "@/manager/admin.vue";
 //quan ly yeu cau
@@ -47,10 +48,22 @@ const routes = [
     component: Login,
   },
   {
-    path: "/notify",
-    name: "Notify",
-    component: Notify,
+    path: "/register",
+    name: "Register",
+    component: Register,
   },
+  {
+    path: "/service",
+    name: "Service",
+    component: Service,
+  },
+  //kham benh
+  {
+    path: "/physicalExamination",
+    name: "PhysicalExamination",
+    component: PhysicalExamination,
+  },
+
   {
     path: "/intro",
     name: "Intro",
@@ -118,15 +131,16 @@ const router = createRouter({
   routes,
 });
 
-router.beforeEach((to, from, next) => {
-  const userStore = userAccStore();
-  if (!userStore.user.TenTaiKhoan && to.name != "Login") {
-    next({
-      path: "/",
-      replace: true,
-    });
-  }
-  next();
-});
+// router.beforeEach((to, from, next) => {
+//   const userStore = userAccStore();
+//   if (!userStore.user.TenTaiKhoan && to.name != "Login") {
+//     next({
+//       path: "/",
+//       replace: true,
+//     });
+//   }
+//   next();
+// }
+// );
 
 export default router;

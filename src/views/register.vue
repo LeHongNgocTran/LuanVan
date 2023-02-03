@@ -50,11 +50,16 @@ export default {
     <div class="container  ">
         <div class="row justify-content-center ">
             <div class="col-sm-12 col-md-8 col-lg-6   rounded frame-login">
-                <h2 class="text-center login-title">Đăng nhập</h2>
+                <h2 class="text-center login-title">Đăng ký</h2>
                 <div class="justify-content-center">
                     <div class="form-group   ">
                         <label for="mssv " class="">Tên Tài khoản:</label>
                         <input type="text" class="form-control" id="mssv " placeholder="Nhập vào tên tài khoản "
+                            required v-model="this.taikhoan.tenTaiKhoan">
+                    </div>
+                    <div class="form-group   ">
+                        <label for="email " class="">Địa chỉ email:</label>
+                        <input type="email" class="form-control" id="mssv " placeholder="Nhập vào địa chỉ email "
                             required v-model="this.taikhoan.tenTaiKhoan">
                     </div>
                     <div class="form-group  ">
@@ -66,17 +71,19 @@ export default {
                     <div class="checkbox ">
                         <label><input type="checkbox" class="fw-bolder"> Nhớ tài khoản này</label>
                     </div>
-                           <button @click="login(this.taikhoan)"
-                        class="btn btn-primary text-light  btn-submit border border-white ">Đăng
-                        nhập</button>
-                       
                   
-                    <div>
-                        <router-link class="nav-link text-dark mb-2 pb-2" :to="{ name: 'Register' }">Chưa có tài khoản ? </router-link>
-                    </div>
-                   
-            
-                        
+                        <button @click="login(this.taikhoan)"
+                        class="btn btn-primary text-light  btn-submit border border-white ">Đăng
+                        ký</button>
+
+                   <div>
+                    <router-link class="nav-link text-dark pb-2" :to="{ name: 'Login' }">Đã có tài khoản? </router-link>
+
+                   </div>
+<!--                    
+                        <button @click="login(this.taikhoan)"
+                        class="btn btn-primary text-light  btn-submit border border-white ">Đăng
+                        nhập</button> -->
                 </div>
 
             </div>
@@ -141,8 +148,5 @@ h2 {
 
 .login-title {
     padding-top: 5%;
-}
-.row{
-     margin-right: 0px;
 }
 </style>
