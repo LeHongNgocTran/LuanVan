@@ -23,8 +23,8 @@
                     <a class="" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false"
                         aria-controls="collapseExample">
 
-                        <router-link class="font-normal text-light" :to="{ name: 'QuanLyBieuMau' }">
-                            Quản lý biểu mẫu</router-link>
+                        <router-link class="font-normal text-light" :to="{ name: 'HRM' }">
+                            Quản lý biểu nhân sự</router-link>
 
                     </a>
                 </p>
@@ -34,7 +34,7 @@
                         aria-controls="collapseExample">
 
                         <router-link class="font-normal text-light" :to="{ name: 'QuanLyYeuCau' }">
-                            Quản lý yêu cầu</router-link>
+                            Quản lý tài khoản</router-link>
 
                     </a>
                 </p>
@@ -46,7 +46,16 @@
                         aria-controls="collapseExample">
 
                         <router-link class="font-normal text-light" :to="{ name: 'QuanLyTrangThai' }">
-                            Quản lý trạng thái</router-link>
+                            Quản lý dịch vụ</router-link>
+
+                    </a>
+                </p>
+                <p class="mb-4 fs-5">
+                    <a class="" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false"
+                        aria-controls="collapseExample">
+
+                        <router-link class="font-normal text-light" :to="{ name: 'QuanLyTrangThai' }">
+                            Quản lý vật nuôi</router-link>
 
                     </a>
                 </p>

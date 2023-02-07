@@ -9,6 +9,10 @@ import Service from "@/views/service.vue";
 import Intro from "@/views/intro.vue";
 import Forms from "@/views/forms.vue";
 import PhysicalExamination from "@/views/physicalExamination.vue";
+import SpaRoom from "@/views/spaRoom.vue";
+
+// ADMIN
+import HRM from "@/manager/HRM.vue";
 //admin
 import ADMIN from "@/manager/admin.vue";
 //quan ly yeu cau
@@ -62,6 +66,18 @@ const routes = [
     path: "/physicalExamination",
     name: "PhysicalExamination",
     component: PhysicalExamination,
+  },
+  //spa
+  {
+    path: "/spaRoom",
+    name: "SpaRoom",
+    component: SpaRoom,
+  },
+  // Quản lý nhân sự ( admin)
+  {
+    path: "/HRM",
+    name: "HRM",
+    component: HRM,
   },
 
   {

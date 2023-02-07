@@ -1,8 +1,6 @@
 <script>
-
 import HeaderPublic from "../components/PublicHeader.vue";
 import PublicFooters from "../components/PublicFooters.vue";
-
 export default {
     components: {
         HeaderPublic, PublicFooters
@@ -11,14 +9,13 @@ export default {
 </script>
 <template>
     <HeaderPublic />
-    <main>
+    <main class="container">
         <p>
             <img class=" col-5 d-flex justify-content-center  offset-4" src="../assets/images/Banner_catdog.jpg" width="" alt="">
         </p>
         
-        <p class="text-center m-0 p-0 title-service">Dịch vụ</p>
-    </main>
-    <div class="container">
+        <p class="text-center  title-service">Dịch vụ</p>
+        <div class="">
         <div class=" row text-center">
             <div class="col rounded border border-dark container-icon col bg-cat_health_service  p-2">
                 <p class="icon-highligh">
@@ -32,7 +29,7 @@ export default {
                 </p>
 
             </div>
-            <div class="col rounded border border-dark container-icon col  bg-cat_shower_service p-2">
+            <div class="col rounded border border-dark container-icon col  bg-cat_shower_service p-2 ml-5 mr-5">
                 <!-- <i class="fa-solid fa-home   text-primary px-3 py-2 my-4 ms-3 
             "></i> -->
             <p class="icon-highligh">
@@ -40,7 +37,8 @@ export default {
                 </p>
              
                 <h4><b>Spa- grooming</b></h4>
-                <img class=" col-5 d-flex justify-content-center  offset-4 bg-cat_shower_service" src="../assets/images/cat_shower_service.jpg" width="" alt="">
+                <router-link class="" :to="{ name: 'SpaRoom' }"><img class=" col-5 d-flex justify-content-center  offset-4 " src="../assets/images/cat_shower_service.jpg" width="100px" alt=""></router-link>
+                <!-- <img class=" col-5 d-flex justify-content-center  offset-4 bg-cat_shower_service" src="../assets/images/cat_shower_service.jpg" width="" alt=""> -->
                
                 <p>Click to see more details!
                 </p>
@@ -63,6 +61,8 @@ export default {
         </div>
 
     </div>
+    </main>
+  
     <PublicFooters />
 
 </template>
@@ -74,11 +74,9 @@ h3{
 li {
     list-style: none;
 }
-
 .link {
     text-decoration: underline;
 }
-
 .bg-form {
     background-color: #3456b4;
 }
