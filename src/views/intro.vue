@@ -15,11 +15,14 @@ export default {
     <div>
       <h2 class="fw-bold text-danger text-center mt-4">Giới thiệu</h2>
       <div class="container">
-        <div class="row">
+
+
+
+        <!-- <div class="row">
           <div class="col-4">
             <div class="row bg-ss1 rounded p-4">
               <h5>
-                <i class="fa-solid fa-sack-dollar mr-2 "></i>Cung cấp sản phẩm
+                <i class="fa-solid fa-sack-dollar mr-2"></i>Cung cấp sản phẩm
                 với mức giá phải chăng
               </h5>
             </div>
@@ -36,11 +39,11 @@ export default {
               src="../assets/images/cat_shower_service.jpg"
               class="img-fluid d-flex justify-content-center ml-5"
               alt=" "
-              width="200px"
+              width=""
             />
           </div>
 
-          <div class="col-4">
+          <div class="col-4 ">
             <div class="row bg-ss1 rounded p-4">
               <h5>
                 <i class="fa-solid fa-heart-pulse mt-1 mr-2"></i>
@@ -54,20 +57,56 @@ export default {
               </h5>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <hr>
+        </div> -->
 
-    <div>
-      <h3 class="text-center fw-bolder">Chi nhánh</h3>
-      <div class="row ml-4 mr-4 pb-4">
-        <div class="col-4 text-right"> Cần Thơ</div>
-        <div class="col-4 text-center">Hồ Chí Minh</div>
-        <div class="col-4 text-left">Vĩnh Long</div>
+        <div class="row">
+          <div class="col-4">
+            <div class="row bg-ss1 rounded p-4">
+              <h5>
+                <i class="fa-solid fa-sack-dollar mr-2"></i>Cung cấp sản phẩm
+                với mức giá phải chăng
+              </h5>
+            </div>
+            <div class="row mt-5 bg-ss1 rounded p-4">
+              <h5>
+                <i class="fa-solid fa-paw mr-2"></i> Nhân viên tư vấn nhiệt
+                tình, hiểu rõ về vật nuôi
+              </h5>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <img
+              src="../assets/images/cat_shower_service.jpg"
+              class="img-fluid d-block w-100"
+              alt=" "
+              width=""
+            />
+          </div>
+
+          <div class="col-4 d-flex flex-column ">
+            <div class=" bg-ss1 rounded p-4">
+              <h5>
+                <i class="fa-solid fa-heart-pulse mt-1 mr-2"></i>
+                Cung cấp sản phẩm chất lượng
+              </h5>
+            </div>
+            <div class=" bg-ss1 rounded p-4 mt-5">
+              <h5>
+                <i class="fa-solid fa-house-chimney-medical mt-1 mr-2"></i>
+                Cung cấp dịch vụ đa dạng với giá cả hợp lý
+              </h5>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
-      <hr>
     </div>
+    <hr />
+
+    
     <!-- <div>
       <h4 class="text-center">Phòng khám thú y Huế Minh</h4>
       <p class="col-9 offset-2">
@@ -76,8 +115,8 @@ export default {
         bạn bận đi công tác hoặc không có thời gian để bên cạnh chúng
       </p>
     </div> -->
-    <h2 class="text-center">Một số hình ảnh đáng yêu</h2>
-    <div class="row pt-2 m-3">
+    <!-- <h2 class="text-center">Một số hình ảnh đáng yêu</h2> -->
+    <!-- <div class="row pt-2 m-3">
       <div class="col-8 border border-dange">
         <div class="row pt-4" ></div>
         <h5 class="text-center ">Một số hình ảnh vật nuôi của khách hàng</h5>
@@ -128,14 +167,118 @@ export default {
           />
         <p>cfghschgcw</p>
       </div>
+    </div> -->
+
+    <!-- ss -->
+    <div class="col">
+      <div class="ss1">
+        <h3 class="text-center mb-3">LIÊN QUAN</h3>
+        <div class="row">
+          <div class="col-4 d-flex justify-content-center flex-column">
+            <!-- <img src="../assets/images/dog-fever.jpg" width="60%" class="img-fluid text-right" alt="" /> -->
+            <div class="card m-auto" style="width: 18rem" >
+              <img
+                src="../assets/images/dog-fever.jpg"
+                width="100%"
+                class="img-fluid "
+                alt=""
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <!-- <img src="../assets/images/dog-fever.jpg" width="60%" class="img-fluid text-right" alt="" /> -->
+            <div class="card m-auto" style="width: 18rem" >
+              <img
+                src="../assets/images/stress-cat.jpg"
+                width="100%"
+                class="img-fluid w-100 d-block align-item-center "
+                alt=""
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <!-- <img src="../assets/images/dog-fever.jpg" width="60%" class="img-fluid text-right" alt="" /> -->
+            <div class="card m-auto " style="width: 18rem" >
+              <img
+                src="../assets/images/dangruff-cat.jpg"
+                width="100%"
+                class="img-fluid text-right"
+                alt=""
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col">
+            <img
+              src="../assets/images/stress-cat.jpg"
+              width="60%"
+              class="img-fluid"
+              alt=""
+            />
+          </div> -->
+          <!-- <div class="col">
+            <img
+              src="../assets/images/dangruff-cat.jpg"
+              width="60%"
+              class="img-fluid"
+              alt=""
+            />
+          </div> -->
+        </div>
+      </div>
+
+      <!-- <div class="my-3 ss2">
+        <h3 class="text-center">Tin tức</h3>
+        <div class="row">
+          <div class="row"></div>
+
+          <div class="row">
+            <img
+              src="../assets/images/cat_red_shirt.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row"></div>
+      <div class="row"></div>
+    </div>
+
+    <div>
+      <h3 class="text-center fw-bolder">Chi nhánh</h3>
+      <div class="row ml-4 mr-4 pb-4">
+        <div class="col-4 text-right">Cần Thơ</div>
+        <div class="col-4 text-center">Hồ Chí Minh</div>
+        <div class="col-4 text-left">Vĩnh Long</div>
+      </div>
+      <hr />
     </div>
   </main>
 
   <PublicFooters />
 </template>
 <style>
-.bg-ss1{
+.bg-ss1 {
   background-color: rgb(255, 250, 187);
- 
 }
 </style>

@@ -90,10 +90,10 @@ export default {
                                 <router-link class="nav-link text-dark" :to="{ name: 'Service' }">Dịch vụ</router-link>
                             </a></li>
                         <li class="nav-item active"><a href="#" class="">
-                                <router-link class="nav-link text-dark" :to="{ name: 'Forms' }">Liên hệ</router-link>
+                                <router-link class="nav-link text-dark" :to="{ name: '' }">Liên hệ</router-link>
                             </a></li>
                             <li class="nav-item active"><a href="#" class="">
-                                <router-link class="nav-link text-dark" :to="{ name: 'Forms' }">Đặt lịch</router-link>
+                                <router-link class="nav-link text-dark" :to="{ name: 'Booking' }">Đặt lịch</router-link>
                             </a></li>
 
 

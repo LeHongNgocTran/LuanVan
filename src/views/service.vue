@@ -19,7 +19,7 @@ export default {
         <div class=" row text-center">
             <div class="col rounded border border-dark container-icon col bg-cat_health_service  p-2">
                 <p class="icon-highligh">
-                    <i class="fa-solid fa-syringe"></i>
+                    <i class="fa-solid fa-syringe icon-click"></i>
                 </p>
 
                 <h4><b>Physical examination</b></h4>
@@ -33,7 +33,7 @@ export default {
                 <!-- <i class="fa-solid fa-home   text-primary px-3 py-2 my-4 ms-3 
             "></i> -->
             <p class="icon-highligh">
-                <i class="fa-solid fa-shower"></i>
+                <i class="fa-solid fa-shower icon-click"></i>
                 </p>
              
                 <h4><b>Spa- grooming</b></h4>
@@ -48,7 +48,7 @@ export default {
                 <!-- <i class="fa-solid fa-book-open-reader   text-primary px-3 py-2 my-4 ms-3 
                 "></i> -->
                 <p class="icon-highligh">
-                    <i class="fa-solid fa-hotel"></i>
+                    <i class="fa-solid fa-hotel icon-click"></i>
                 </p>
              
                 <h4><b>Hotel- service</b></h4>
@@ -93,5 +93,8 @@ li {
     font-size: 200%;
     letter-spacing: 0ch;
     font-weight: 400;
+}
+.icon-click{
+    font-size: 45px;
 }
 </style>

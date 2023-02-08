@@ -10,6 +10,7 @@ import Intro from "@/views/intro.vue";
 import Forms from "@/views/forms.vue";
 import PhysicalExamination from "@/views/physicalExamination.vue";
 import SpaRoom from "@/views/spaRoom.vue";
+import Booking from "@/views/booking.vue";
 
 // ADMIN
 import HRM from "@/manager/HRM.vue";
@@ -73,6 +74,13 @@ const routes = [
     name: "SpaRoom",
     component: SpaRoom,
   },
+  //booking
+  {
+    path: "/booking",
+    name: "Booking",
+    component: Booking,
+  },
+
   // Quản lý nhân sự ( admin)
   {
     path: "/HRM",
