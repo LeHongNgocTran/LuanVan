@@ -13,55 +13,15 @@ export default {
   <HeaderPublic />
   <main class="container-fluid">
     <div>
-      <h2 class="fw-bold text-danger text-center mt-4">Giới thiệu</h2>
+      <h2 class="fw-bold text-danger text-center  title-page pt-5">Giới thiệu</h2>
       <div class="container">
 
 
 
-        <!-- <div class="row">
-          <div class="col-4">
-            <div class="row bg-ss1 rounded p-4">
-              <h5>
-                <i class="fa-solid fa-sack-dollar mr-2"></i>Cung cấp sản phẩm
-                với mức giá phải chăng
-              </h5>
-            </div>
-            <div class="row mt-5 bg-ss1 rounded p-4">
-              <h5>
-                <i class="fa-solid fa-paw mr-2"></i> Nhân viên tư vấn nhiệt
-                tình, hiểu rõ về vật nuôi
-              </h5>
-            </div>
-          </div>
-
-          <div class="col-4">
-            <img
-              src="../assets/images/cat_shower_service.jpg"
-              class="img-fluid d-flex justify-content-center ml-5"
-              alt=" "
-              width=""
-            />
-          </div>
-
-          <div class="col-4 ">
-            <div class="row bg-ss1 rounded p-4">
-              <h5>
-                <i class="fa-solid fa-heart-pulse mt-1 mr-2"></i>
-                Cung cấp sản phẩm chất lượng
-              </h5>
-            </div>
-            <div class="row bg-ss1 rounded p-4 mt-5">
-              <h5>
-                <i class="fa-solid fa-house-chimney-medical mt-1 mr-2"></i>
-                Cung cấp dịch vụ đa dạng với giá cả hợp lý
-              </h5>
-            </div>
-          </div>
-        </div> -->
-
+        
         <div class="row">
           <div class="col-4">
-            <div class="row bg-ss1 rounded p-4">
+            <div class="row bg-ss1 rounded p-4 mt-4">
               <h5>
                 <i class="fa-solid fa-sack-dollar mr-2"></i>Cung cấp sản phẩm
                 với mức giá phải chăng
@@ -85,7 +45,7 @@ export default {
           </div>
 
           <div class="col-4 d-flex flex-column ">
-            <div class=" bg-ss1 rounded p-4">
+            <div class=" bg-ss1 rounded p-4 mt-4">
               <h5>
                 <i class="fa-solid fa-heart-pulse mt-1 mr-2"></i>
                 Cung cấp sản phẩm chất lượng
@@ -107,92 +67,32 @@ export default {
     <hr />
 
     
-    <!-- <div>
-      <h4 class="text-center">Phòng khám thú y Huế Minh</h4>
-      <p class="col-9 offset-2">
-        Tại phòng khám chúng tôi không chỉ chuẩn đoán, khám bệnh cho vật nuôi.
-        Ngoài ra còn một số dịch vụ chăm sóc làm đẹp, dịch vụ giữ vật nuôi khi
-        bạn bận đi công tác hoặc không có thời gian để bên cạnh chúng
-      </p>
-    </div> -->
-    <!-- <h2 class="text-center">Một số hình ảnh đáng yêu</h2> -->
-    <!-- <div class="row pt-2 m-3">
-      <div class="col-8 border border-dange">
-        <div class="row pt-4" ></div>
-        <h5 class="text-center ">Một số hình ảnh vật nuôi của khách hàng</h5>
-       
-          <img
-            src="../assets/images/cat_sky.jpg"
-            class="img-fluid col"
-            width="10%"
-            alt=""
-          />
-          hhh
-          <img
-            src="../assets/images/cat_heart.jpg"
-            class="img-fluid col"
-            width="20%"
-            alt=""
-          />
-          <img
-            src="../assets/images/cat_bike.jpg"
-            class="img-fluid col"
-            width="20%"
-            alt=""
-          />
-          <img
-            src="../assets/images/cat_red_shirt.jpg"
-            class="img-fluid col"
-            width="20%"
-            alt=""
-          />
-         
-       
-        <p class="col">
-          Pate là loại thức ăn bổ sung dinh dưỡng cho mèo, giúp mèo cải thiện
-          khẩu vị cho bữa ăn thường ngày thêm ngon miệng. Bên cạnh đó, loại thức
-          ăn này còn giúp bạn tiết kiệm thời gian trong việc chế biến nhưng vẫn
-          đảm bảo đủ dinh dưỡng cho bé mèo.
-        </p>
-        
-      </div>
-
-      <div class="col-4 pt-4">
-        <h4>dịch vụ khác</h4>
-        <img
-            src="../assets/images/pate_cat.jpg"
-            class="img-fluid col"
-            width="20%"
-            alt=""
-          />
-        <p>cfghschgcw</p>
-      </div>
-    </div> -->
-
+    
     <!-- ss -->
     <div class="col">
       <div class="ss1">
-        <h3 class="text-center mb-3">LIÊN QUAN</h3>
-        <div class="row">
-          <div class="col-4 d-flex justify-content-center flex-column">
+        <h3 class="text-center py-4 mb-3">LIÊN QUAN</h3>
+        <div class="row d-flex justify-content-around">
+          <div class="col-4 ">
             <!-- <img src="../assets/images/dog-fever.jpg" width="60%" class="img-fluid text-right" alt="" /> -->
             <div class="card m-auto" style="width: 18rem" >
               <img
-                src="../assets/images/dog-fever.jpg"
+              src="../assets/images/dog-fever.jpg"
                 width="100%"
-                class="img-fluid "
+                class="img-fluid w-100 d-block align-item-center  "
                 alt=""
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <!-- <router-link>BỆNH SỐT Ở CHÓ? </router-link> -->
+                  <p class="sick-title">BỆNH SỐT Ở CHÓ ?</p>
+                  <p class="sick-content">Sốt ở chó là tình trạng mà rất nhiều người gặp khi nuôi chó. Có rất nhiều nguyên nhân[...]</p>
+                  
                 </p>
               </div>
             </div>
           </div>
           <div class="col-4">
-            <!-- <img src="../assets/images/dog-fever.jpg" width="60%" class="img-fluid text-right" alt="" /> -->
             <div class="card m-auto" style="width: 18rem" >
               <img
                 src="../assets/images/stress-cat.jpg"
@@ -202,8 +102,8 @@ export default {
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <p class="sick-title">NHẬN BIẾT KHI MÈO GIÀ BỊ ĐAU ?</p>
+                  <p class="sick-content">Cách nhận biết cơn đau ở mèo khi chúng già đi, chúng ta thường [...]</p>
                 </p>
               </div>
             </div>
@@ -220,56 +120,31 @@ export default {
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <p class="sick-title">GIẢM CĂNG THẲNG CHO MÈO ?</p>
+                  <p class="sick-content">Một số lời khuyên hữu ích giúp làm giảm căng thẳng khi đến [...]</p>
                 </p>
               </div>
             </div>
+            
           </div>
-          <!-- <div class="col">
-            <img
-              src="../assets/images/stress-cat.jpg"
-              width="60%"
-              class="img-fluid"
-              alt=""
-            />
-          </div> -->
-          <!-- <div class="col">
-            <img
-              src="../assets/images/dangruff-cat.jpg"
-              width="60%"
-              class="img-fluid"
-              alt=""
-            />
-          </div> -->
+          <hr>
+         
         </div>
       </div>
 
-      <!-- <div class="my-3 ss2">
-        <h3 class="text-center">Tin tức</h3>
-        <div class="row">
-          <div class="row"></div>
+ 
 
-          <div class="row">
-            <img
-              src="../assets/images/cat_red_shirt.jpg"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-        </div>
-      </div> -->
-
-      <div class="row"></div>
-      <div class="row"></div>
+      <!-- <div class="row"></div>
+      <div class="row"></div> -->
     </div>
+    <hr>
 
     <div>
-      <h3 class="text-center fw-bolder">Chi nhánh</h3>
+      <h3 class="text-center "><b>Chi nhánh</b></h3>
       <div class="row ml-4 mr-4 pb-4">
-        <div class="col-4 text-right">Cần Thơ</div>
-        <div class="col-4 text-center">Hồ Chí Minh</div>
-        <div class="col-4 text-left">Vĩnh Long</div>
+        <div class="col-4 text-right branch-position">Cần Thơ</div>
+        <div class="col-4 text-center branch-position">Hồ Chí Minh</div>
+        <div class="col-4 text-left branch-position">Vĩnh Long</div>
       </div>
       <hr />
     </div>
@@ -279,6 +154,24 @@ export default {
 </template>
 <style>
 .bg-ss1 {
-  background-color: rgb(255, 250, 187);
+  background-color: white;
+  border: solid 1px gray;
 }
+
+.title-page{
+  color: rgb(5, 5, 77) !important;
+}
+.card-text{
+  font-size: 1.2rem;
+}
+.sick-title{
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: auto;
+}
+.sick-content, .branch-position{
+  font-size: 1.1rem;
+}
+
+
 </style>

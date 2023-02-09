@@ -28,7 +28,7 @@ export default {
             </router-link> -->
             <p class="text-center pt-2 pb-2 text-light main-title">
                 
-                <b>PHÒNG KHÁM THÚ Y HUẾ MINH</b>
+                <b>ANIMAL CLINIC</b>
                 
             </p>
 
@@ -79,21 +79,21 @@ export default {
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item active"><a href="#" class="">
-                                <router-link class="nav-link text-dark decorate" :to="{ name: 'Home' }">Trang chủ
+                                <router-link class="nav-link text-light decorate page" :to="{ name: 'Home' }">Trang chủ
                                 </router-link>
                             </a></li>
 
                         <li class="nav-item"><a href="#">
-                                <router-link class="nav-link text-dark" :to="{ name: 'Intro' }">Giới thiệu</router-link>
+                                <router-link class="nav-link text-light page" :to="{ name: 'Intro' }">Giới thiệu</router-link>
                             </a></li>
                         <li class="nav-item"><a href="#">
-                                <router-link class="nav-link text-dark" :to="{ name: 'Service' }">Dịch vụ</router-link>
+                                <router-link class="nav-link text-light page" :to="{ name: 'Service' }">Dịch vụ</router-link>
                             </a></li>
                         <li class="nav-item active"><a href="#" class="">
-                                <router-link class="nav-link text-dark" :to="{ name: '' }">Liên hệ</router-link>
+                                <router-link class="nav-link text-light page" :to="{ name: '' }">Liên hệ</router-link>
                             </a></li>
                             <li class="nav-item active"><a href="#" class="">
-                                <router-link class="nav-link text-dark" :to="{ name: 'Booking' }">Đặt lịch</router-link>
+                                <router-link class="nav-link text-light page" :to="{ name: 'Booking' }">Đặt lịch</router-link>
                             </a></li>
 
 
@@ -175,5 +175,10 @@ a:hover {
     text-decoration: none !important;
 
 }
+.page{
+    font-size: 1.2rem;
+    color: white;
+}
+
 </style>
 
