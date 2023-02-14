@@ -84,8 +84,11 @@ export default {
               />
               <div class="card-body">
                 <p class="card-text">
-                  <!-- <router-link>BỆNH SỐT Ở CHÓ? </router-link> -->
-                  <p class="sick-title">BỆNH SỐT Ở CHÓ ?</p>
+                  <router-link :to="{ name: 'FeverInDog' }" class="sick-title ">
+                    BỆNH SỐT Ở CHÓ ?
+
+            </router-link>
+                  <!-- <p class="sick-title">BỆNH SỐT Ở CHÓ ?</p> -->
                   <p class="sick-content">Sốt ở chó là tình trạng mà rất nhiều người gặp khi nuôi chó. Có rất nhiều nguyên nhân[...]</p>
                   
                 </p>
@@ -102,7 +105,11 @@ export default {
               />
               <div class="card-body">
                 <p class="card-text">
-                  <p class="sick-title">NHẬN BIẾT KHI MÈO GIÀ BỊ ĐAU ?</p>
+                  <router-link :to="{ name: 'StressCat' }" class="sick-title ">
+                    NHẬN BIẾT KHI MÈO GIÀ BỊ ĐAU ?
+
+            </router-link>
+                  <!-- <p class="sick-title">NHẬN BIẾT KHI MÈO GIÀ BỊ ĐAU ?</p> -->
                   <p class="sick-content">Cách nhận biết cơn đau ở mèo khi chúng già đi, chúng ta thường [...]</p>
                 </p>
               </div>
@@ -168,6 +175,7 @@ export default {
   font-weight: 700;
   font-size: 1.4rem;
   margin: auto;
+  color: black;
 }
 .sick-content, .branch-position{
   font-size: 1.1rem;

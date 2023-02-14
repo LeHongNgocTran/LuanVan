@@ -11,6 +11,8 @@ import Forms from "@/views/forms.vue";
 import PhysicalExamination from "@/views/physicalExamination.vue";
 import SpaRoom from "@/views/spaRoom.vue";
 import Booking from "@/views/booking.vue";
+import FeverInDog from "@/views/feverInDog.vue";
+import StressCat from "@/views/stressCat.vue";
 
 // ADMIN
 import HRM from "@/manager/HRM.vue";
@@ -79,6 +81,18 @@ const routes = [
     path: "/booking",
     name: "Booking",
     component: Booking,
+  },
+  // fever in dog
+  {
+    path: "/feverInDog",
+    name: "FeverInDog",
+    component: FeverInDog,
+  },
+  // stress cat
+  {
+    path: "/stressCat ",
+    name: "StressCat",
+    component: StressCat,
   },
 
   // Quản lý nhân sự ( admin)

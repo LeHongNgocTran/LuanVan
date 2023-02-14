@@ -29,7 +29,7 @@ export default {
             CHÚNG
           </h5>
           <div class="main-content ">
-            <b class="content-title"> ANIMAL CLINIC </b>
+            <b class="content-title"> VETERINARY CLINIC </b>
             là một phòng khám thú y đầy đủ dịch vụ được thúc đẩy bởi niềm đam mê
             xuất sắc. Chúng tôi cung cấp dịch vụ chăm sóc lâm sàng nhân ái, công
             nghệ tiên tiến và bác sĩ thú y quốc tế có tay nghề cao để thực hiện
@@ -149,7 +149,7 @@ b > .content-title {
  
 }
 /* main bg */
-mainn{
+main{
   background-color: #ece9e1;
 }
 

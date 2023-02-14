@@ -28,7 +28,7 @@ export default {
             </router-link> -->
             <p class="text-center pt-2 pb-2 text-light main-title">
                 
-                <b>ANIMAL CLINIC</b>
+                <b>VETERINARY CLINIC</b>
                 
             </p>
 
@@ -147,7 +147,7 @@ button {
 }
 
 .bg-header {
-    background-color: #1887cd;
+    background-color: #084d7b;
 }
 
 .nav-item {
