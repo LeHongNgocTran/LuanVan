@@ -154,7 +154,6 @@ export default {
         <h3 class="text-center py-4 mb-3">LIÊN QUAN</h3>
         <div class="row d-flex justify-content-around">
           <div class="col-4 ">
-            <!-- <img src="../assets/images/dog-fever.jpg" width="60%" class="img-fluid text-right" alt="" /> -->
             <div class="card m-auto" style="width: 18rem" >
               <img
               src="../assets/images/dog-fever.jpg"
@@ -169,13 +168,13 @@ export default {
 
             </router-link>
                   <!-- <p class="sick-title">BỆNH SỐT Ở CHÓ ?</p> -->
-                  <p class="sick-content">Sốt ở chó là tình trạng mà rất nhiều người gặp khi nuôi chó. Có rất nhiều nguyên nhân[...]</p>
+                  <p class="sick-content">Sốt ở chó là tình trạng mà rất nhiều người gặp khi nuôi chó. Có rất nhiều nguyên nhân dẫn đến việc[...]</p>
                   
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-4">
+         <div class="col-4">
             <div class="card m-auto" style="width: 18rem" >
               <img
                 src="../assets/images/stress-cat.jpg"
@@ -185,8 +184,11 @@ export default {
               />
               <div class="card-body">
                 <p class="card-text">
-                  <p class="sick-title">NHẬN BIẾT KHI MÈO GIÀ BỊ ĐAU ?</p>
-                  <p class="sick-content">Cách nhận biết cơn đau ở mèo khi chúng già đi, chúng ta thường [...]</p>
+                  <router-link :to="{ name: 'StressCat' }" class="sick-title ">
+                    GIẢM CĂNG THẲNG CHO MÈO ?
+
+            </router-link>
+                  <p class="sick-content">Một số lời khuyên hữu ích giúp làm giảm căng thẳng khi gặp [...]</p>
                 </p>
               </div>
             </div>
@@ -204,7 +206,7 @@ export default {
               <div class="card-body">
                 <p class="card-text">
                   <p class="sick-title">GIẢM CĂNG THẲNG CHO MÈO ?</p>
-                  <p class="sick-content">Một số lời khuyên hữu ích giúp làm giảm căng thẳng khi đến [...]</p>
+                  <p class="sick-content">Một số lời khuyên hữu ích giúp làm giảm [...]</p>
                 </p>
               </div>
             </div>

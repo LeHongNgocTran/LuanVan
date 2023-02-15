@@ -13,6 +13,7 @@ import SpaRoom from "@/views/spaRoom.vue";
 import Booking from "@/views/booking.vue";
 import FeverInDog from "@/views/feverInDog.vue";
 import StressCat from "@/views/stressCat.vue";
+import Contact from "@/views/contact.vue"
 
 // ADMIN
 import HRM from "@/manager/HRM.vue";
@@ -81,6 +82,12 @@ const routes = [
     path: "/booking",
     name: "Booking",
     component: Booking,
+  },
+  //contact
+  {
+    path: "/contact",
+    name: "Contact",
+    component: Contact,
   },
   // fever in dog
   {

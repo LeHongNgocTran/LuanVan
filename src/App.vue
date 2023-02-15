@@ -3,7 +3,7 @@
 
 <!-- <header-public /> -->
 
-    <div class="container-fluid p-0">
+    <div class='p-0'>
         <router-view></router-view>
     </div>
 

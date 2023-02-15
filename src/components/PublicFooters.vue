@@ -88,7 +88,7 @@
             <i class="fa-brands fa-youtube col"></i>
             <i class="fa-brands fa-pinterest col"></i>
           </div> -->
-          <p>Copyright & 2023 VETERINARY CLINIC</p>
+          <p class="mt-2">Copyright & 2023 VETERINARY CLINIC</p>
           
         </div>
       </div>
