@@ -6,7 +6,7 @@ import Home from "@/views/home.vue";
 import Login from "@/views/login.vue";
 import Register from "@/views/register.vue";
 import Service from "@/views/service.vue";
-import Intro from "@/views/intro.vue";
+import AboutUs from "@/views/aboutus.vue";
 import Forms from "@/views/forms.vue";
 import PhysicalExamination from "@/views/physicalExamination.vue";
 import SpaRoom from "@/views/spaRoom.vue";
@@ -110,9 +110,9 @@ const routes = [
   },
 
   {
-    path: "/intro",
-    name: "Intro",
-    component: Intro,
+    path: "/aboutus",
+    name: "AboutUs",
+    component: AboutUs,
   },
   {
     path: "/forms",

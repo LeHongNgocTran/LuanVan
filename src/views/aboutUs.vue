@@ -12,52 +12,7 @@ export default {
 <template>
   <HeaderPublic />
   <main class="container-fluid">
-    <!-- intro -->
-    <!-- <div>
-      <h2 class="fw-bold text-danger text-center title-page pt-5">
-        Giới thiệu
-      </h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-">
-            <div class="row bg-ss1 rounded p-4 mt-4">
-              <h5>
-                <i class="fa-solid fa-sack-dollar mr-2"></i>Cung cấp sản phẩm
-                với mức giá phải chăng
-              </h5>
-            </div>
-            <div class="row mt-5 bg-ss1 rounded p-4">
-              <h5>
-                <i class="fa-solid fa-paw mr-2"></i> Nhân viên tư vấn nhiệt
-                tình, hiểu rõ về vật nuôi
-              </h5>
-            </div>
-          </div>
-          <div class="col-4">
-            <img
-              src="../assets/images/cat_shower_service.jpg"
-              class="img-fluid d-block w-100"
-              alt=" Cat Shower Service "
-            />
-          </div>
-          <div class="col-4 d-flex flex-column">
-            <div class="bg-ss1 rounded p-4 mt-4">
-              <h5>
-                <i class="fa-solid fa-heart-pulse mt-1 mr-2"></i>
-                Cung cấp sản phẩm chất lượng
-              </h5>
-            </div>
-            <div class="bg-ss1 rounded p-4 mt-5">
-              <h5>
-                <i class="fa-solid fa-house-chimney-medical mt-1 mr-2"></i>
-                Cung cấp dịch vụ đa dạng với giá cả hợp lý
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
+   
     <!--  ABOUT US -->
     <div class="container">
       <div class="row py-5">
@@ -85,24 +40,23 @@ export default {
           </ul>
         </div>
         <div class="col-4">
-          <h2 class="aboutus text-center pt-4">VỀ CHÚNG TÔI</h2>
+          <h2 class="aboutus text-center pt-4 pb-2">VỀ CHÚNG TÔI</h2>
           <p class="text-center fw-bold mt-2" style="font-size: 30px; font-weight: bold;">BÁC SĨ ĐỘNG VẬT QUỐC TẾ</p>
-          <div class="px-2 text-primary">
-            <p>
-              <span class='text-dark fw-bold text-underline text-decoration-underline '>
-                Nằm ở cả trung tâm của Thành phố Hồ Chí Minh và Viêng Chăn, Animal
-                Doctors International cố gắng cung cấp các loại thuốc thú y 
-              </span>và
-              <span class="text-dark fw-bold text-decoration-underline">phẫu thuật</span> từ bi, có năng lực và chuyên nghiệp cao nhất cho tất cả
+          <div class="px-2 ">
+            <p class="text-dark aboutus-detail " >
+              
+                Nằm ở cả trung tâm của Thành phố Hồ Chí Minh và Viêng Chăn, VETERINARY CLINIC cố gắng cung cấp các loại thuốc thú y 
+              và
+              phẫu thuật từ bi, có năng lực và chuyên nghiệp cao nhất cho tất cả
               thú cưng ở Việt Nam và Lào.
             </p>
-            <p>
+            <p class="text-dark aboutus-detail">
               Từ việc đảm bảo tính nhất quán trong các tiêu chuẩn quốc tế, tìm
               nguồn cung ứng các đơn thuốc của bác sĩ chuyên khoa từ khắp nơi
               trên thế giới và đi khắp đất nước, Nhóm của chúng tôi làm việc
               không mệt mỏi để hỗ trợ khách hàng của mình bằng mọi cách có thể.
             </p>
-            <p>
+            <p class="text-dark aboutus-detail">
               Chúng tôi tự hào có cơ hội làm việc cùng với những khách hàng
               tuyệt vời của chúng tôi (và chủ sở hữu của họ!) để tiếp tục hỗ trợ
               cuộc sống lâu dài, năng động và khỏe mạnh!
@@ -238,7 +192,7 @@ export default {
   font-size: 1.1rem;
 }
 .title {
-  font-size: 20rem;
+  
   font-weight: 700;
   margin-top: 10%;
   color: white;
@@ -269,11 +223,15 @@ main {
 }
 .detail {
   color: white;
-  font-weight: bold;
+  font-size: 1.2rem;
 }
 .detail:hover {
   color: rgb(173, 7, 7);
   font-weight: 600;
   cursor: pointer;
 }
+.aboutus-detail{
+  font-size: 1.2rem;
+}
+
 </style>
