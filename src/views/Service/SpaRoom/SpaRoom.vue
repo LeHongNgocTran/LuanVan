@@ -1,6 +1,6 @@
 <script>
-import HeaderPublic from "../components/PublicHeader.vue";
-import PublicFooters from "../components/PublicFooters.vue";
+import HeaderPublic from "../../../components/PublicHeader.vue";
+import PublicFooters from "../../../components/PublicFooters.vue";
 
 export default {
     components: {
@@ -70,18 +70,16 @@ export default {
                 <textarea rows="3" cols="90" class="px-2">...</textarea>
             </div>
 
-
-
             <!-- OLD MODAL -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Đăng ký
-</button>
+            <button type="button" class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Đăng ký
+            </button>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">
+                            <h5 class="modal-title " id="exampleModalLabel">
                                 Đăng ký dịch vụ
                             </h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -91,58 +89,62 @@ export default {
                         <div class="modal-body">
                             <form>
                                 <div class="form-group">
-                                    <label for="formGroupExampleInput">Tên vật nuôi</label>
-                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nhập vào tên vật nuôi" />
+                                    <p class="">Tên vật nuôi : <span class="text-danger fw-bold">*</span></p>
+                                    <!-- <label for="formGroupExampleInput">Tên vật nuôi</label> -->
+                                    <input type="text" class="form-control" id="formGroupExampleInput" required placeholder="Nhập vào tên vật nuôi" />
                                 </div>
                                 <div class="form-group">
-                                    <label for="formGroupExampleInput2">Giới tính</label>
+                                    <p class="">Giới tính : <span class="text-danger fw-bold">*</span></p>
+
                                     <div class="row pl-2">
                                         <div class="form-check ml-2">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                                            <label class="form-check-label col" for="flexRadioDefault1">
+                                            <p class="form-check-label col" for="flexRadioDefault1">
                                                 male
-                                            </label>
+                                            </p>
                                         </div>
-                                        <div class="form-check">
+                                        <div class="form-check ml-2">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                                            <label class="form-check-label col" for="flexRadioDefault2">
+                                            <p class="form-check-label col" for="flexRadioDefault2">
                                                 female
-                                            </label>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
 
+
                                 <div class="form-group">
-                                    <label for="formGroupExampleInput2">Dịch vụ đã chọn:</label>
+                                    <p class="">Dịch vụ đã chọn : <span class="text-danger fw-bold">*</span></p>
                                     <div class="row pl-2">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                                            <label class="form-check-label col" for="flexRadioDefault2">
+                                            <p class="form-check-label col" for="flexRadioDefault2">
                                                 Spa- grooming
-                                            </label>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="formGroupExampleInput2">Gói dịch vụ:</label>
+                                    <p class="">Tên vật nuôi : <span class="text-danger fw-bold">*</span></p>
+                                    <!-- <label for="formGroupExampleInput2">Gói dịch vụ:</label> -->
                                     <div class="row pl-2">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                                            <label class="form-check-label col" for="flexRadioDefault2">
+                                            <p class="form-check-label col" for="flexRadioDefault2">
                                                 1
-                                            </label>
+                                            </p>
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                                            <label class="form-check-label col" for="flexRadioDefault2">
+                                            <p class="form-check-label col" for="flexRadioDefault2">
                                                 2
-                                            </label>
+                                            </p>
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                                            <label class="form-check-label col" for="flexRadioDefault2">
+                                            <p class="form-check-label col" for="flexRadioDefault2">
                                                 3
-                                            </label>
+                                            </p>
                                         </div>
                                     </div>
                                     <div></div>
@@ -150,7 +152,8 @@ export default {
                                 <div class="form-group">
                                     <!--  -->
                                     <div class="">
-                                        <div class="fw-bold">Thời gian đặt hẹn</div>
+                                        <p class="">Thời gian đặt hẹn : <span class="text-danger fw-bold">*</span></p>
+                                        <!-- <div class="fw-bold">Thời gian đặt hẹn</div> -->
                                         <div class="box-timeslot" style="margin-top: 20px; margin-bottom: 15px">
                                             <div class="row">
                                                 <div class="select-day col">
@@ -304,25 +307,30 @@ export default {
                                             </div>
                                         </div>
                                     </div>
-                                    <h5 class="text-center">Thông tin của bạn</h5>
+                                    <hr>
+                                    <h5 class="text-center modal-title">Thông tin của bạn</h5>
 
                                     <div>
                                         <form action="">
 
                                             <div class="form-group">
-                                                <label for="formGroupExampleInput">Họ và tên</label>
+                                                <p class="">Họ và tên của bạn : <span class="text-danger fw-bold">*</span></p>
+                                                <!-- <label for="formGroupExampleInput">Họ và tên</label> -->
                                                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nhập vào tên vật nuôi" />
                                             </div>
                                             <div class="form-group">
-                                                <label for="formGroupExampleInput">Số điện thoại</label>
+                                                <p class="">Số điện thoại : <span class="text-danger fw-bold">*</span></p>
+                                                <!-- <label for="formGroupExampleInput">Số điện thoại</label> -->
                                                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nhập vào tên vật nuôi" />
                                             </div>
                                             <div class="form-group">
-                                                <label for="formGroupExampleInput">Địa chỉ</label>
+                                                <p class="">Địa chỉ : <span class="text-danger fw-bold">*</span></p>
+                                                <!-- <label for="formGroupExampleInput">Địa chỉ</label> -->
                                                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nhập vào tên vật nuôi" />
                                             </div>
                                             <div class="form-group">
-                                                <label for="formGroupExampleInput">Email</label>
+                                                <p class="">Email : <span class="text-danger fw-bold">*</span></p>
+                                                <!-- <label for="formGroupExampleInput">Email</label> -->
                                                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nhập vào tên vật nuôi" />
                                             </div>
                                         </form>
@@ -331,10 +339,10 @@ export default {
                             </form>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            <button type="button" class="btn btn-secondary text-light" data-dismiss="modal">
                                 Hủy
                             </button>
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-primary text-light">
                                 Đặt lịch ngay
                             </button>
                         </div>
@@ -342,19 +350,6 @@ export default {
                 </div>
             </div>
 
-
-
-
-
-
-
-
-
-            <button type="button" class="btn btn-primary text-light" data-toggle="modal" data-target="#exampleModal">
-                Đăng ký!
-            </button>
-
-           
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -377,7 +372,7 @@ export default {
                                     <div class="row pl-2">
                                         <div class="form-check ml-2">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                                            <label class="form-check-label col" for="flexRadioDefault1">
+                                            <label class="form-check-label col fw-normal" for="flexRadioDefault1">
                                                 male
                                             </label>
                                         </div>
@@ -428,7 +423,7 @@ export default {
                                 <div class="form-group">
                                     <!--  -->
                                     <div class="">
-                                        <div class="title">Thời gian đặt hẹn</div>
+                                        <div class="title time-booking label-name">Thời gian đặt hẹn</div>
                                         <div class="box-timeslot" style="margin-top: 20px; margin-bottom: 15px">
                                             <div class="row">
                                                 <div class="select-day col">
@@ -629,36 +624,5 @@ export default {
 </template>
 
 <style scoped>
-.use-colorr {
-    background-color: #dae9f3;
-}
-
-.use-color {
-    background-color: #eef9ff;
-}
-
-.button-1 {
-    background-color: #3872b2;
-    border: 1px solid #80b5d7;
-}
-
-.table th,
-.table td,
-.table tr,
-.table thead tr th,
-.table tbody tr td {
-    border: 1px solid #19a7ff;
-}
-
-.bg-form {
-    background-color: #3456b4;
-}
-
-main {
-    background-color: white;
-}
-
-table {
-    background-color: white;
-}
+@import './SpaRoom.module.css'
 </style>

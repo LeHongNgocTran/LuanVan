@@ -1,0 +1,29 @@
+
+b > .content-title {
+  font-size: larger;
+}
+.main-content {
+  font-size: 1.2rem;
+}
+.small-title {
+  color: rgb(5, 5, 77) !important;
+  font-weight: 700;
+}
+
+.item-services {
+  border: solid 2px;
+  border-color: rgb(63, 62, 62);
+}
+.service-title {
+  font-size: 1.5rem;
+  padding: 5px 2px;
+  font-weight: 500;
+}
+.item-services:hover {
+  transform: translate(5px, 8px);
+}
+/* main bg */
+main {
+  background-color: #ece9e1;
+}
+

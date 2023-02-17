@@ -17,50 +17,7 @@ export default {
 
 <template>
   <header>
-    <!-- <div class="bg-header">
-      <p class="text-center pt-2 pb-2 text-light main-title">
-        <b>VETERINARY CLINIC</b>
-      </p>
-    </div> -->
-
-    <!-- <div>
-      <div
-        class="pre-nav row text-center pre-nav m-0"
-        style="padding-top: 15px"
-      >
-        <div class="col-3">
-          <img src="../assets/images/logo_cat.jpg" class="img-logo" alt="" />
-        </div>
-        <p class="col-6 row"></p>
-        <div class="row col-3 d-flex justify-content-end">
-          <div v-if="taikhoan.user.TenTaiKhoan == null" class="col">
-            <div class="row p-0 d-flex flex-row">
-              <div></div>
-              <router-link
-                class="nav-link text-dark col-5"
-                :to="{ name: 'Login' }"
-                >Đăng nhập</router-link
-              >| &nbsp;
-              <i class="fa-solid fa-bell"></i>
-            </div>
-          </div>
-          <div v-else class="user-login">
-            <div class="row">
-              <a class="user-icon"><i class="fas fa-user text-dark"></i></a>
-              <span class=""
-                >{{ taikhoan.user.TenTaiKhoan
-                }}<a @click="logout()"
-                  ><i
-                    class="fa-solid fa-right-from-bracket text-danger"
-                    style="cursor: pointer"
-                  ></i></a
-              ></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
+  
     <div class="bg-light d-flex flex-row justify-content-end ">
       
         <p class="pt-4  pl-3 pr-5 fw-bold">Đăng nhập</p>
@@ -108,7 +65,7 @@ export default {
               <a href="#">
                 <router-link
                   class="nav-link text-light page"
-                  :to="{ name: 'AboutUs' }"
+                  :to="{ name: 'About' }"
                   >Về chúng tôi</router-link
                 >
               </a>

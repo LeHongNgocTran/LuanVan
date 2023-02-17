@@ -1,6 +1,6 @@
 <script>
-import HeaderPublic from "../components/PublicHeader.vue";
-import PublicFooters from "../components/PublicFooters.vue";
+import HeaderPublic from "../../components/PublicHeader.vue";
+import PublicFooters from "../../components/PublicFooters.vue";
 
 export default {
   components: {
@@ -11,8 +11,9 @@ export default {
 </script>
 <template>
   <HeaderPublic />
-  <main class="container">
-    <p>
+  <main class="">
+    <div>
+        <p>
       <img
         class="col-5 d-flex justify-content-center offset-4"
         src="../assets/images/Banner_catdog.jpg"
@@ -432,27 +433,13 @@ export default {
         <div class="col py-5 text-center mx-4 rounded text-name">Giữ nuôi</div>
       </div>
     </div>
+
+    </div>
+   
   </main>
 
   <PublicFooters />
 </template>
 <style>
-.bg-booking {
-  background-color: rgb(249, 250, 251);
-  box-shadow: 3px 5px 5px 5px #9c9c9c;
-}
-
-.text-name {
-  font-size: 120%;
-  color: black;
-  background-color: white;
-}
-.text-namee:hover {
-  color: white;
-  background-color: rgb(73, 149, 236);
-}
-
-main {
-  font-family: system-ui;
-}
+@import'./Booking.module.css'
 </style>

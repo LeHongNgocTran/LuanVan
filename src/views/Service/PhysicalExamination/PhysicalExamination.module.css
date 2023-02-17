@@ -1,0 +1,32 @@
+.use-colorr {
+    background-color: #dae9f3;
+}
+
+.use-color {
+    background-color: #eef9ff;
+}
+
+.button-1 {
+    background-color: #3872b2;
+    border: 1px solid #80b5d7;
+}
+
+.table th,
+.table td,
+.table tr,
+.table thead tr th,
+.table tbody tr td {
+    border: 1px solid #19a7ff;
+}
+
+.bg-form {
+    background-color: #3456b4;
+}
+
+main {
+    background-color: white;
+}
+
+table {
+    background-color: white;
+}

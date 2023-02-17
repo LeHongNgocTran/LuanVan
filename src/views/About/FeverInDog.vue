@@ -1,6 +1,6 @@
 <script>
-import HeaderPublic from "../components/PublicHeader.vue";
-import PublicFooters from "../components/PublicFooters.vue";
+import HeaderPublic from "../../components/PublicHeader.vue";
+import PublicFooters from "../../components/PublicFooters.vue";
 
 export default {
   components: {
@@ -27,7 +27,7 @@ export default {
         <div class="px-4 mt-4">
           <img
             class="img-fluid"
-            src="../assets/images/fever-dog-detail.jpg"
+            src="../../assets/images/fever-dog-detail.jpg"
             alt=""
             width="70%"
           />
@@ -57,7 +57,7 @@ export default {
               <li class="list-style-detail">Vết thương nhiễm trùng</li>
             </ul>
           </div>
-          <img src="../assets/images/fever-dog-detail-1.jpg" alt="" />
+          <img src="../../assets/images/fever-dog-detail-1.jpg" alt="" />
         </div>
       </div>
     </section>
@@ -94,7 +94,7 @@ export default {
           </p>
 
           <img
-            src="../assets/images/fever-dog-detail-2.jpg"
+            src="../../assets/images/fever-dog-detail-2.jpg"
             class="img-fluid"
             width="70%"
             alt=""
@@ -156,7 +156,7 @@ export default {
           <div class="col-4 ">
             <div class="card m-auto" style="width: 18rem" >
               <img
-              src="../assets/images/dog-fever.jpg"
+              src="../../assets/images/dog-fever.jpg"
                 width="100%"
                 class="img-fluid w-100 d-block align-item-center  "
                 alt=""
@@ -177,7 +177,7 @@ export default {
          <div class="col-4">
             <div class="card m-auto" style="width: 18rem" >
               <img
-                src="../assets/images/stress-cat.jpg"
+                src="../../assets/images/stress-cat.jpg"
                 width="100%"
                 class="img-fluid w-100 d-block align-item-center "
                 alt=""
@@ -198,7 +198,7 @@ export default {
             <!-- <img src="../assets/images/dog-fever.jpg" width="60%" class="img-fluid text-right" alt="" /> -->
             <div class="card m-auto " style="width: 18rem" >
               <img
-                src="../assets/images/dangruff-cat.jpg"
+                src="../../assets/images/dangruff-cat.jpg"
                 width="100%"
                 class="img-fluid text-right"
                 alt=""

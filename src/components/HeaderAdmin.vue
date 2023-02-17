@@ -1,14 +1,14 @@
 
 <script>
 import InputSearch from '../components/InputSearch.vue'
-import BieuMauService from '../services/bieuMau.service'
-import SinhVienService from '../services/sinhvien.service'
+// import BieuMauService from '../services/bieuMau.service'
+// import SinhVienService from '../services/sinhvien.service'
 import { userAccStore } from "@/Store/userStore";
 export default {
     components: {
         InputSearch,
-        BieuMauService,
-        SinhVienService,
+        // BieuMauService,
+        // SinhVienService,
 
     },
     data() {

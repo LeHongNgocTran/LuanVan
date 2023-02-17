@@ -1,0 +1,49 @@
+body {
+    font-family: "Poppings", sans-serif !important;
+  }
+  
+  label {
+    font-weight: 700;
+    font-size: larger;
+    font-family: serif;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-family: serif;
+  }
+  
+  .btn-submit {
+    margin: 10%;
+  }
+  
+  .btn-submit:hover {
+    background-color: rgb(116, 171, 235);
+  }
+  
+  .btn-submit:active {
+    background-color: rgb(47, 125, 214);
+  }
+  
+  .container-form {
+    padding: 3% 5% 3% 5%;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+  
+  
+  .login-title {
+    padding-top: 5%;
+  }
+  
+  .row {
+    margin-right: 0px;
+  }
+  
+  .frame-img {
+    background-color: #ece9e1;
+  }

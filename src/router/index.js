@@ -2,17 +2,17 @@ import { createWebHistory, createRouter } from "vue-router";
 
 import { userAccStore } from "@/Store/userStore";
 
-import Home from "@/views/home.vue";
-import Login from "@/views/login.vue";
-import Register from "@/views/register.vue";
-import Service from "@/views/service.vue";
-import AboutUs from "@/views/aboutus.vue";
-import PhysicalExamination from "@/views/physicalExamination.vue";
-import SpaRoom from "@/views/spaRoom.vue";
-import Booking from "@/views/booking.vue";
-import FeverInDog from "@/views/feverInDog.vue";
-import StressCat from "@/views/stressCat.vue";
-import Contact from "@/views/contact.vue"
+import Home from "../views/Home/home.vue";
+import Login from "@/views/Login/Login.vue";
+import Register from "@/views/Login/Register.vue";
+import Service from "@/views/Service/Service.vue";
+import About from "@/views/About/About.vue";
+import PhysicalExamination from "@/views/Service/PhysicalExamination/PhysicalExamination.vue";
+import SpaRoom from "@/views/Service/SpaRoom/SpaRoom.vue";
+import Booking from "@/views/Booking/Booking.vue";
+import FeverInDog from "@/views/About/FeverInDog.vue";
+import StressCat from "@/views/About/StressCat.vue";
+import Contact from "@/views/Contact/Contact.vue"
 
 // ADMIN
 import HRM from "@/manager/HRM.vue";
@@ -107,9 +107,9 @@ const routes = [
   },
 
   {
-    path: "/aboutus",
-    name: "AboutUs",
-    component: AboutUs,
+    path: "/about",
+    name: "About",
+    component: About,
   },
  
   //dang ky xac nhan

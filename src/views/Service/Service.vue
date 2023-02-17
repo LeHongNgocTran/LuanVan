@@ -1,6 +1,6 @@
 <script>
-import HeaderPublic from "../components/PublicHeader.vue";
-import PublicFooters from "../components/PublicFooters.vue";
+import HeaderPublic from "../../components/PublicHeader.vue";
+import PublicFooters from "../../components/PublicFooters.vue";
 export default {
   components: {
     HeaderPublic,
@@ -29,7 +29,7 @@ export default {
           <router-link class="" :to="{ name: 'PhysicalExamination' }"
             ><img
               class="col-5 d-flex justify-content-center offset-4"
-              src="../assets/images/cat_health_service1.jpg"
+              src="../../assets/images/cat_health_service1.jpg"
               width="100px"
               alt=""
           /></router-link>
@@ -47,7 +47,7 @@ export default {
           <router-link class="" :to="{ name: 'SpaRoom' }"
             ><img
               class="col-5 d-flex justify-content-center offset-4"
-              src="../assets/images/cat_shower_service.jpg"
+              src="../../assets/images/cat_shower_service.jpg"
               width="100px"
               alt=""
           /></router-link>
@@ -63,7 +63,7 @@ export default {
           <h4><b>Hotel- service</b></h4>
           <img
             class="col-5 d-flex justify-content-center offset-4 cat-service-hotel"
-            src="../assets/images/cat_hotel_service.jpg"
+            src="../../assets/images/cat_hotel_service.jpg"
             width=""
             alt=""
           />
@@ -84,34 +84,6 @@ export default {
 </template>
 
 <style>
-h3 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-li {
-  list-style: none;
-}
-.link {
-  text-decoration: underline;
-}
-.bg-form {
-  background-color: #3456b4;
-}
-.bg-cat-service-hotel {
-  background-color: #ffdd83;
-}
-.bg-cat_shower_service {
-  background-color: #fee2e3;
-}
-.bg-cat_health_service {
-  background-color: #b5e0e7;
-}
-.title-service {
-  font-size: 200%;
-  letter-spacing: 0ch;
-  font-weight: 400;
-}
-.icon-click {
-  font-size: 45px;
-}
+@import'./Service.module.css'
 
 </style>

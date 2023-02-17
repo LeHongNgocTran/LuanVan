@@ -1,6 +1,6 @@
 <script>
-import HeaderPublic from "../components/PublicHeader.vue";
-import PublicFooters from "../components/PublicFooters.vue";
+import HeaderPublic from "../../components/PublicHeader.vue";
+import PublicFooters from "../../components/PublicFooters.vue";
 
 export default {
   components: {
@@ -20,7 +20,7 @@ export default {
         <div class="px-4 mt-4 row">
           <img
             class="img-fluid col-6 "
-            src="../assets/images/stress-cat-1.jpg"
+            src="../../assets/images/stress-cat-1.jpg"
             alt=""
             width="50%"
           />
@@ -151,10 +151,10 @@ export default {
         <h3 class="text-center py-4 mb-3">LIÊN QUAN</h3>
         <div class="row d-flex justify-content-around">
           <div class="col-4 ">
-            <!-- <img src="../assets/images/dog-fever.jpg" width="60%" class="img-fluid text-right" alt="" /> -->
+            <!-- <img src="../../assets/images/dog-fever.jpg" width="60%" class="img-fluid text-right" alt="" /> -->
             <div class="card m-auto" style="width: 18rem" >
               <img
-              src="../assets/images/dog-fever.jpg"
+              src="../../assets/images/dog-fever.jpg"
                 width="100%"
                 class="img-fluid w-100 d-block align-item-center  "
                 alt=""
@@ -175,7 +175,7 @@ export default {
          <div class="col-4">
             <div class="card m-auto" style="width: 18rem" >
               <img
-                src="../assets/images/stress-cat.jpg"
+                src="../../assets/images/stress-cat.jpg"
                 width="100%"
                 class="img-fluid w-100 d-block align-item-center "
                 alt=""
@@ -194,10 +194,10 @@ export default {
           </div>
 
           <div class="col-4">
-            <!-- <img src="../assets/images/dog-fever.jpg" width="60%" class="img-fluid text-right" alt="" /> -->
+            <!-- <img src="../../assets/images/dog-fever.jpg" width="60%" class="img-fluid text-right" alt="" /> -->
             <div class="card m-auto " style="width: 18rem" >
               <img
-                src="../assets/images/dangruff-cat.jpg"
+                src="../../assets/images/dangruff-cat.jpg"
                 width="100%"
                 class="img-fluid text-right"
                 alt=""

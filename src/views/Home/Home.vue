@@ -1,6 +1,6 @@
 <script>
-import HeaderPublic from "../components/PublicHeader.vue";
-import PublicFooters from "../components/PublicFooters.vue";
+import HeaderPublic from "../../components/PublicHeader.vue";
+import PublicFooters from "../../components/PublicFooters.vue";
 
 export default {
   components: {
@@ -12,19 +12,21 @@ export default {
 
 <template>
   <HeaderPublic />
+  
   <main>
+    
     <div class="m-auto">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       
-      <img src="../assets/images/thumbnail-1.webp" class="d-block w-100" alt="...">
+      <img src="../../assets/images/thumbnail-1.webp" class="d-block w-100" alt="Thumnail1">
     </div>
     <div class="carousel-item">
-      <img src="../assets/images/thumbnail-2.webp" class="d-block w-100" alt="...">
+      <img src="../../assets/images/thumbnail-2.webp" class="d-block w-100" alt="Thumnail2">
     </div>
     <div class="carousel-item">
-      <img src="../assets/images/bg-3.jpg" class="d-block w-100" alt="...">
+      <img src="../../assets/images/bg-3.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -61,7 +63,7 @@ export default {
           </div>
           <div class="col-6">
             <img
-              src="../assets/images/home-doctor-with-cat.jpg"
+              src="../../assets/images/home-doctor-with-cat.jpg"
               class="img-fluid"
               alt="ABC"
             />
@@ -83,7 +85,7 @@ export default {
             <div class="d-flex justify-content-center" style="height: 250px">
               <img
                 class="rounded-circle item-services d-block"
-                src="../assets/images/cat-house.jpg"
+                src="../../assets/images/cat-house.jpg"
                 style="width: 65%"
                 alt=""
               />
@@ -98,7 +100,7 @@ export default {
             <div class="d-flex justify-content-center" style="height: 250px">
               <img
                 class="rounded-circle item-services d-block"
-                src="../assets/images/pupple-dog.jpg"
+                src="../../assets/images/pupple-dog.jpg"
                 style="width: 65%"
                 alt=""
               />
@@ -113,9 +115,9 @@ export default {
             <div class="d-flex justify-content-center" style="height: 250px">
               <img
                 class="rounded-circle item-services d-block"
-                src="../assets/images/doctor-cat-dog.jpg"
+                src="../../assets/images/doctor-cat-dog.jpg"
                 style="width: 65%"
-                alt=""
+                alt="123456"
               />
             </div>
             <p
@@ -138,32 +140,5 @@ export default {
 
   <PublicFooters />
 </template>
-<style>
-b > .content-title {
-  font-size: larger;
-}
-.main-content {
-  font-size: 1.2rem;
-}
-.small-title {
-  color: rgb(5, 5, 77) !important;
-  font-weight: 700;
-}
-
-.item-services {
-  border: solid 2px;
-  border-color: rgb(63, 62, 62);
-}
-.service-title {
-  font-size: 1.5rem;
-  padding: 5px 2px;
-  font-weight: 500;
-}
-.item-services:hover {
-  transform: translate(5px, 8px);
-}
-/* main bg */
-main {
-  background-color: #ece9e1;
-}
-</style>
+ <style>
+@import './Home.module.css';</style>

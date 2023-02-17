@@ -1,6 +1,6 @@
 <script>
-import HeaderPublic from "../components/PublicHeader.vue";
-import PublicFooters from "../components/PublicFooters.vue";
+import HeaderPublic from "../../components/PublicHeader.vue";
+import PublicFooters from "../../components/PublicFooters.vue";
 
 export default {
   components: {
@@ -19,7 +19,7 @@ export default {
         <div class="col-6 title">ABOUT US</div>
         <div class="col-6">
           <img
-            src="../assets/images/cat-about.webp "
+            src="../../assets/images/cat-about.webp "
             class="img-fluid w-100"
             alt=""
           />
@@ -65,7 +65,7 @@ export default {
         </div>
         <div class="col-4 m-0">
           <img
-            src="../assets/images/dog-showing.jpg"
+            src="../../assets/images/dog-showing.jpg"
             class="w-100 d-block"
             alt="Cho"
           />
@@ -86,7 +86,7 @@ export default {
           <div class="col-4">
             <div class="card m-auto" style="width: 19rem">
               <img
-                src="../assets/images/dog-fever.jpg"
+                src="../../assets/images/dog-fever.jpg"
                 width="100%"
                 class="img-fluid w-100 d-block align-item-center"
                 alt=""
@@ -107,7 +107,7 @@ export default {
           <div class="col-4" style="height: 200px">
             <div class="card m-auto" style="width: 19rem">
               <img
-                src="../assets/images/stress-cat.jpg"
+                src="../../assets/images/stress-cat.jpg"
                 width="100%"
                 class="img-fluid w-100 d-block align-item-center"
                 alt=""
@@ -129,7 +129,7 @@ export default {
           <div class="col-4" style="height: 200px">
             <div class="card m-auto" style="width: 19rem">
               <img
-                src="../assets/images/dangruff-cat.jpg"
+                src="../../assets/images/dangruff-cat.jpg"
                 width="100%"
                 class="img-fluid w-100 d-block align-item-center"
                 alt=""
@@ -170,68 +170,6 @@ export default {
   <PublicFooters />
 </template>
 <style>
-.bg-ss1 {
-  background-color: white;
-  border: solid 1px gray;
-}
-
-.title-page {
-  color: rgb(5, 5, 77) !important;
-}
-.card-text {
-  font-size: 1.2rem;
-}
-.sick-title {
-  font-weight: 700;
-  font-size: 1.4rem;
-  margin: auto;
-  color: black;
-}
-.sick-content,
-.branch-position {
-  font-size: 1.1rem;
-}
-.title {
-  
-  font-weight: 700;
-  margin-top: 10%;
-  color: white;
-  text-shadow: 4px 4px 3px #000000;
-}
-.title-relate {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-top: 45px;
-}
-.aboutus {
-  text-decoration: underline rgb(189, 5, 5);
-}
-.button-style {
-  padding: 10px 20px;
-  font-weight: 500;
-  border-radius: 25px;
-}
-.about-detail {
-  background-image: url("../assets/images/pupple-dog.jpg");
-}
-li {
-  padding-top: 20px;
-  font-size: 400;
-}
-main {
-  font-size: 1rem;
-}
-.detail {
-  color: white;
-  font-size: 1.2rem;
-}
-.detail:hover {
-  color: rgb(173, 7, 7);
-  font-weight: 600;
-  cursor: pointer;
-}
-.aboutus-detail{
-  font-size: 1.2rem;
-}
+@import './About.module.css';
 
 </style>
