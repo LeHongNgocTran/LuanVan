@@ -2,99 +2,116 @@
 import HeaderPublic from "../components/PublicHeader.vue";
 import PublicFooters from "../components/PublicFooters.vue";
 export default {
-    components: {
-        HeaderPublic, PublicFooters
-    }
-}
+  components: {
+    HeaderPublic,
+    PublicFooters,
+  },
+};
 </script>
 <template>
-    <HeaderPublic />
-    <main class="container">
-        <p>
-            <img class=" col-5 d-flex justify-content-center  offset-4" src="../assets/images/Banner_catdog.jpg" width="" alt="">
-        </p>
-        
-        <p class="text-center  title-service">Dịch vụ</p>
-        <div class="">
-        <div class=" row text-center">
-            <div class="col rounded border border-dark container-icon col bg-cat_health_service  p-2">
-                <p class="icon-highligh">
-                    <i class="fa-solid fa-syringe icon-click"></i>
-                </p>
+  <HeaderPublic />
+  <main class="">
+    
+    
+    <div>
+        <div class="py-5">
+        <p class="text-center title-service title-service  text-uppercase fw-bold text-center  border w-25  m-auto text-white bg-dark ">Dịch vụ</p>
+    <div class=" container">
+      <div class="row text-center">
+        <div
+          class="col rounded border border-dark container-icon col bg-cat_health_service p-2"
+        >
+          <p class="icon-highligh">
+            <i class="fa-solid fa-syringe icon-click"></i>
+          </p>
 
-                <h4><b>Physical examination</b></h4>
-                <router-link class="" :to="{ name: 'PhysicalExamination' }"><img class=" col-5 d-flex justify-content-center  offset-4 " src="../assets/images/cat_health_service1.jpg" width="100px" alt=""></router-link>
-                <!-- <img class=" col-5 d-flex justify-content-center  offset-4 " src="../assets/images/cat_health_service.jpg" width="" alt=""> -->
-                <p>Click to see more details!
-                </p>
+          <h4><b>Physical examination</b></h4>
+          <router-link class="" :to="{ name: 'PhysicalExamination' }"
+            ><img
+              class="col-5 d-flex justify-content-center offset-4"
+              src="../assets/images/cat_health_service1.jpg"
+              width="100px"
+              alt=""
+          /></router-link>
 
-            </div>
-            <div class="col rounded border border-dark container-icon col  bg-cat_shower_service p-2 ml-5 mr-5">
-                <!-- <i class="fa-solid fa-home   text-primary px-3 py-2 my-4 ms-3 
-            "></i> -->
-            <p class="icon-highligh">
-                <i class="fa-solid fa-shower icon-click"></i>
-                </p>
-             
-                <h4><b>Spa- grooming</b></h4>
-                <router-link class="" :to="{ name: 'SpaRoom' }"><img class=" col-5 d-flex justify-content-center  offset-4 " src="../assets/images/cat_shower_service.jpg" width="100px" alt=""></router-link>
-                <!-- <img class=" col-5 d-flex justify-content-center  offset-4 bg-cat_shower_service" src="../assets/images/cat_shower_service.jpg" width="" alt=""> -->
-               
-                <p>Click to see more details!
-                </p>
-
-            </div>
-            <div class="col rounded border border-dark container-icon col bg-cat-service-hotel p-2">
-                <!-- <i class="fa-solid fa-book-open-reader   text-primary px-3 py-2 my-4 ms-3 
-                "></i> -->
-                <p class="icon-highligh">
-                    <i class="fa-solid fa-hotel icon-click"></i>
-                </p>
-             
-                <h4><b>Hotel- service</b></h4>
-                <img class=" col-5 d-flex justify-content-center  offset-4 cat-service-hotel" src="../assets/images/cat_hotel_service.jpg" width="" alt="">
-                <p>Click to see more details!
-                </p>
-
-            </div>
-
+          <p>Click to see more details!</p>
         </div>
+        <div
+          class="col rounded border border-dark container-icon col bg-cat_shower_service p-2 ml-5 mr-5"
+        >
+          <p class="icon-highligh">
+            <i class="fa-solid fa-shower icon-click"></i>
+          </p>
+
+          <h4><b>Spa- grooming</b></h4>
+          <router-link class="" :to="{ name: 'SpaRoom' }"
+            ><img
+              class="col-5 d-flex justify-content-center offset-4"
+              src="../assets/images/cat_shower_service.jpg"
+              width="100px"
+              alt=""
+          /></router-link>
+          <p>Click to see more details!</p>
+        </div>
+        <div
+          class="col rounded border border-dark container-icon col bg-cat-service-hotel p-2"
+        >
+          <p class="icon-highligh">
+            <i class="fa-solid fa-hotel icon-click"></i>
+          </p>
+
+          <h4><b>Hotel- service</b></h4>
+          <img
+            class="col-5 d-flex justify-content-center offset-4 cat-service-hotel"
+            src="../assets/images/cat_hotel_service.jpg"
+            width=""
+            alt=""
+          />
+          <p>Click to see more details!</p>
+        </div>
+      </div>
+    </div>
 
     </div>
-    </main>
-  
-    <PublicFooters />
+   
+    
 
+    </div>
+    
+  </main>
+
+  <PublicFooters />
 </template>
 
 <style>
-h3{
-    font-family: Arial, Helvetica, sans-serif;
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
 }
 li {
-    list-style: none;
+  list-style: none;
 }
 .link {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .bg-form {
-    background-color: #3456b4;
+  background-color: #3456b4;
 }
-.bg-cat-service-hotel{
-    background-color: #ffdd83;
+.bg-cat-service-hotel {
+  background-color: #ffdd83;
 }
-.bg-cat_shower_service{
-    background-color: #fee2e3;
+.bg-cat_shower_service {
+  background-color: #fee2e3;
 }
-.bg-cat_health_service{
-    background-color: #b5e0e7;
+.bg-cat_health_service {
+  background-color: #b5e0e7;
 }
-.title-service{
-    font-size: 200%;
-    letter-spacing: 0ch;
-    font-weight: 400;
+.title-service {
+  font-size: 200%;
+  letter-spacing: 0ch;
+  font-weight: 400;
 }
-.icon-click{
-    font-size: 45px;
+.icon-click {
+  font-size: 45px;
 }
+
 </style>

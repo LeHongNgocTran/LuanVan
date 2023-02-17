@@ -76,11 +76,11 @@ export default {
     ></div>
 
     <nav
-      class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-header ftco-navbar-light"
+      class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-header ftco-navbar-light p-0 m-0"
       id="ftco-navbar"
     >
-      <b class="text-light pl-5 text-center col-2">VETERINARY CLINIC</b>
-      <div class="container-fluid">
+      <b class="text-light pl-5 text-center col-2  title-nav pl-3" >VETERINARY CLINIC</b>
+      <div class="container-fluid col-10">
         <button
           class="navbar-toggler"
           type="button"
@@ -215,5 +215,8 @@ a:hover {
 .page {
   font-size: 1.2rem;
   color: white;
+}
+.title-nav{
+  font-size: 1.4rem;
 }
 </style>

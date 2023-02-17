@@ -7,7 +7,6 @@ import Login from "@/views/login.vue";
 import Register from "@/views/register.vue";
 import Service from "@/views/service.vue";
 import AboutUs from "@/views/aboutus.vue";
-import Forms from "@/views/forms.vue";
 import PhysicalExamination from "@/views/physicalExamination.vue";
 import SpaRoom from "@/views/spaRoom.vue";
 import Booking from "@/views/booking.vue";
@@ -25,8 +24,6 @@ import QuanLyYeuCau from "@/manager/quanLyYeuCau.vue";
 import QuanLyTrangThai from "@/manager/quanLyTrangThai.vue";
 // //quan ly bieu mau
 import QuanLyBieuMau from "@/manager/quanLyBieuMau.vue";
-// //dang ky xac nhan
-import DangKyXacNhan from "@/views/DangKyXacNhan.vue";
 // //thong ke
 import ThongKe from "@/manager/thongKe.vue";
 
@@ -114,18 +111,13 @@ const routes = [
     name: "AboutUs",
     component: AboutUs,
   },
-  {
-    path: "/forms",
-    name: "Forms",
-    component: Forms,
-  },
-
+ 
   //dang ky xac nhan
-  {
-    path: "/DangKyXacNhan",
-    name: "DangKyXacNhan",
-    component: DangKyXacNhan,
-  },
+  // {
+  //   path: "/DangKyXacNhan",
+  //   name: "DangKyXacNhan",
+  //   component: DangKyXacNhan,
+  // },
   // admin
   {
     path: "/admin",

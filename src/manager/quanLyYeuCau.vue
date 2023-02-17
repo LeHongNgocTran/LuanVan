@@ -1,6 +1,6 @@
 <script>
 import HeaderAdmin from "../components/HeaderAdmin.vue";
-import ThongTinDangKyService from "../services/thongtindangky.service";
+// import ThongTinDangKyService from "../services/thongtindangky.service";
 import SidebarAdmin from "../components/SidebarAdmin.vue";
 //import { divide } from "lodash";
 export default {

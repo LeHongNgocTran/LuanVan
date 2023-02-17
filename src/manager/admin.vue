@@ -1,6 +1,6 @@
 <script>
 import HeaderAdmin from "../components/HeaderAdmin.vue";
-import SinhVienService from "../services/sinhVien.service";
+// import SinhVienService from "../services/sinhVien.service";
 import SidebarAdmin from "../components/SidebarAdmin.vue";
 export default {
     data() {

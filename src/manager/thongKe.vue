@@ -3,7 +3,7 @@
 <script>
 import HeaderAdmin from "../components/HeaderAdmin.vue";
 import SidebarAdmin from "../components/SidebarAdmin.vue";
-import ThongTinDangKyService from "../services/thongtindangky.service.js";
+// import ThongTinDangKyService from "../services/thongtindangky.service.js";
 
 export default {
     components: {
