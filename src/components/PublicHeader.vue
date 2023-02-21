@@ -20,7 +20,9 @@ export default {
   
     <div class="bg-light d-flex flex-row justify-content-end  row-login">
       
-        <p class="pt-4  pl-3 pr-5 fw-bold">Đăng nhập</p>
+        <p class="pt-4  pl-3 pr-5 fw-bold">
+          <router-link class="nav-link text-dark" :to="{ name: 'Login' }">Đăng nhập</router-link>
+        </p>
         <p class="pt-4  pr-5 fw-bold"> |</p>
         <i class="fa-solid fa-bell pt-4 pr-5 "></i>
       

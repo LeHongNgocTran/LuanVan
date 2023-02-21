@@ -45,7 +45,8 @@ export default {
                             <input type="email" class="form-control  bg-light" id="exampleInputEmail1" aria-describedby="" placeholder="EMAIL*" />
                         </div>
                         <div class="mb-3">
-                            <input type="phone" class="form-controlbg-light" id="exampleInputEmail1" aria-describedby="" placeholder="PHONE*" />
+                            <input type="tel" id="phone" name="phone" placeholder="PHONE*" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            <!-- <input type="phone" class="form-controlbg-light" id="exampleInputEmail1" aria-describedby="" placeholder="PHONE*" /> -->
                         </div>
 
                         <div class="mb-3">
@@ -56,7 +57,7 @@ export default {
                             <button type="submit" class="btn text-light button-submit  px-4">Submit</button>
 
                         </div>
-                        
+
                     </form>
                 </div>
             </div>
@@ -81,4 +82,3 @@ export default {
 <style>
 @import'./Contact.module.css';
 </style>
- 

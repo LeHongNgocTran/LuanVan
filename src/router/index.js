@@ -28,10 +28,10 @@ import QuanLyBieuMau from "@/manager/quanLyBieuMau.vue";
 // //thong ke
 import ThongKe from "@/manager/thongKe.vue";
 
-//edit form
-import FormEdit from "@/manager/FormEdit.vue";
-//add form
-import FormAdd from "@/manager/FormAdd.vue";
+
+
+
+
 
 const routes = [
   {
@@ -158,17 +158,7 @@ const routes = [
     name: "ThongKe",
     component: ThongKe,
   },
-  {
-    path: "/formAdd",
-    name: "bieumau.add",
-    component: FormAdd,
-  },
-  //edit bieu mau
-  {
-    path: "/formEdit/:id",
-    name: "bieumau.edit",
-    component: FormEdit,
-  },
+
 ];
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

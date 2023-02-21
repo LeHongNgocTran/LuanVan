@@ -88,7 +88,10 @@
             <i class="fa-brands fa-youtube col"></i>
             <i class="fa-brands fa-pinterest col"></i>
           </div> -->
-          <p class="mt-2">Copyright & 2023 VETERINARY CLINIC</p>
+          <p class="mt-2
+          
+          
+          ">Copyright &copy; 2023 VETERINARY CLINIC</p>
           
         </div>
       </div>
@@ -126,17 +129,20 @@ footer{
 }
 .border-submit{
   border: solid 1px white;
+  margin-right: 10px;
 
 }
 
 .submit-button:before{
   background-color: red;
   color: white;
+  
 
 }
 .submit-button:hover{
   background-color: white;
   color: red;
+  
 
 }
 .effect-link:hover{
