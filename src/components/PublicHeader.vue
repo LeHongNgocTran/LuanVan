@@ -18,7 +18,7 @@ export default {
 <template>
   <header>
   
-    <div class="bg-light d-flex flex-row justify-content-end ">
+    <div class="bg-light d-flex flex-row justify-content-end  row-login">
       
         <p class="pt-4  pl-3 pr-5 fw-bold">Đăng nhập</p>
         <p class="pt-4  pr-5 fw-bold"> |</p>
@@ -175,5 +175,15 @@ a:hover {
 }
 .title-nav{
   font-size: 1.4rem;
+  padding-left: 60px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+  color: wheat;
+}
+.row-login{
+  padding-right: 60px;
 }
 </style>

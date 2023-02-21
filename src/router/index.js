@@ -9,6 +9,7 @@ import Service from "@/views/Service/Service.vue";
 import About from "@/views/About/About.vue";
 import PhysicalExamination from "@/views/Service/PhysicalExamination/PhysicalExamination.vue";
 import SpaRoom from "@/views/Service/SpaRoom/SpaRoom.vue";
+import HotelRoom from "@/views/Service/HotelRoom/HotelRoom.vue";
 import Booking from "@/views/Booking/Booking.vue";
 import FeverInDog from "@/views/About/FeverInDog.vue";
 import StressCat from "@/views/About/StressCat.vue";
@@ -73,6 +74,12 @@ const routes = [
     path: "/spaRoom",
     name: "SpaRoom",
     component: SpaRoom,
+  },
+  //Hotel Room
+  {
+    path: "/HotelRoom",
+    name: "HotelRoom",
+    component: HotelRoom,
   },
   //booking
   {

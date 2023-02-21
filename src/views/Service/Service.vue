@@ -19,7 +19,7 @@ export default {
     <div class=" container">
       <div class="row text-center">
         <div
-          class="col rounded border border-dark container-icon col bg-cat_health_service p-2"
+          class="col rounded border border-dark container-icon col bg-cat_health_service kind-service"
         >
           <p class="icon-highligh">
             <i class="fa-solid fa-syringe icon-click"></i>
@@ -37,7 +37,7 @@ export default {
           <p>Click to see more details!</p>
         </div>
         <div
-          class="col rounded border border-dark container-icon col bg-cat_shower_service p-2 ml-5 mr-5"
+          class="col rounded border border-dark container-icon col bg-cat_shower_service kind-service"
         >
           <p class="icon-highligh">
             <i class="fa-solid fa-shower icon-click"></i>
@@ -54,19 +54,22 @@ export default {
           <p>Click to see more details!</p>
         </div>
         <div
-          class="col rounded border border-dark container-icon col bg-cat-service-hotel p-2"
+          class="col rounded border border-dark container-icon col bg-cat-service-hotel kind-service"
         >
           <p class="icon-highligh">
             <i class="fa-solid fa-hotel icon-click"></i>
           </p>
 
           <h4><b>Hotel- service</b></h4>
-          <img
+
+          <router-link class="" :to="{ name: 'HotelRoom' }"
+            ><img
             class="col-5 d-flex justify-content-center offset-4 cat-service-hotel"
             src="../../assets/images/cat_hotel_service.jpg"
             width=""
             alt=""
-          />
+          /></router-link>
+          
           <p>Click to see more details!</p>
         </div>
       </div>
