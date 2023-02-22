@@ -70,7 +70,7 @@ export default {
             <div class="rounded frame-login col-9">
               <h2 class="text-center login-title">Đăng nhập</h2>
               <div class="justify-content-center">
-                <div class="form-group">
+                <div class="form-group mt-1 mb-3">
                   <label for="mssv " class="">Tên Tài khoản:</label>
                   <input
                     type="text"
@@ -81,7 +81,7 @@ export default {
                     v-model="this.taikhoan.tenTaiKhoan"
                   />
                 </div>
-                <div class="form-group">
+                <div class="form-group mt-1 mb-3">
                   <label for="pwd">Mật khẩu:</label>
                   <input
                     type="password"
@@ -94,7 +94,7 @@ export default {
                 <p v-if="error" class="text-danger">
                   Tên tài khoản hoặc mật khẩu không đúng
                 </p>
-                <div class="checkbox">
+                <div class="checkbox mt-3">
                   <label
                     ><input type="checkbox" class="fw-bolder" /> Nhớ tài khoản
                     này</label
@@ -109,9 +109,13 @@ export default {
 
                 <div>
                   <router-link
-                    class="nav-link text-dark mb-2 pb-2"
+                    class="nav-link text-dark mb-2 pb-2 highli"
                     :to="{ name: 'Register' }"
-                    >Chưa có tài khoản ?
+                    >
+                    <span class="account text-dark fw-bold">
+                            Chưa có tài khoản?
+
+                        </span>
                   </router-link>
                 </div>
               </div>

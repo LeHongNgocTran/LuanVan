@@ -156,15 +156,7 @@ export default {
     </div>
     <hr />
 
-    <div>
-      <h3 class="text-center"><b>Chi nhánh</b></h3>
-      <div class="row ml-4 mr-4 pb-4">
-        <div class="col-4 text-right branch-position">Cần Thơ</div>
-        <div class="col-4 text-center branch-position">Hồ Chí Minh</div>
-        <div class="col-4 text-left branch-position">Vĩnh Long</div>
-      </div>
-      <hr />
-    </div>
+  
   </main>
 
   <PublicFooters />

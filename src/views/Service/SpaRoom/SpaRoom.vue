@@ -119,6 +119,23 @@ export default {
                                         </div>
                                     </td>
                                 </tr>
+
+                                <tr class="create-space">
+                                    <td>
+                                        Cân nặng:
+                                        <span class="text-danger fw-bold">*</span>
+                                    </td>
+                                    <td>
+                                        <select id="" name="">
+                                            <option value="">0-2 kg</option>
+                                            <option>2-4 kg</option>
+                                            <option value="">4-6 kg</option>
+                                            <option value="">6-8 kg</option>
+                                            <option value="">8-10 kg</option>
+                                            <option value="">Trên 10 kg</option>
+                                        </select>
+                                    </td>
+                                </tr>
                                 <tr>
                                     <td class="d-flex justify-content-start">
                                         Giới tính:

@@ -44,7 +44,7 @@ export default {
 </script>
 
 
-<!-- <template>
+ <!-- <template>
     <HeaderPublic />
     <div class="container  ">
         <div class="row justify-content-center ">
@@ -87,7 +87,7 @@ export default {
 
     </div>
     <PublicFooters />
-</template> -->
+</template>  -->
 
 
 <template>
@@ -124,16 +124,29 @@ export default {
                             v-model="this.taikhoan.matKhau">
                     </div>
                     <p v-if="error" class="text-danger">Tên tài khoản hoặc mật khẩu không đúng</p>
-                    <div class="checkbox ">
-                        <label><input type="checkbox" class="fw-bolder"> Nhớ tài khoản này</label>
-                    </div>
-                  
-                        <button @click="login(this.taikhoan)"
-                        class="btn btn-primary text-light  btn-submit border border-white ">Đăng
+                    <div class="checkbox">
+                  <label
+                    ><input type="checkbox" class="fw-bolder remember" /> Nhớ tài khoản
+                    này</label
+                  >
+                </div>
+                <div >
+                    <button @click="login(this.taikhoan)"
+                        class="btn btn-primary text-light  btn-submit border border-white  ">Đăng
                         ký</button>
 
-                   <div>
-                    <router-link class="nav-link text-dark pb-2" :to="{ name: 'Login' }">Đã có tài khoản? </router-link>
+                </div>
+                  
+                        
+
+                   <div >
+                    <router-link class="nav-link text-dark pb-2" :to="{ name: 'Login' }">
+                        <span class="account text-dark fw-bold ">
+                            Đã có tài khoản? 
+
+                        </span>
+                        
+                    </router-link>
 
                    </div>
 <!--                    
