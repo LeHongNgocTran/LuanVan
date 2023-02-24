@@ -4,16 +4,16 @@
       <div class="row">
         <div class="col-5">
           <div class="d-flex flex-column justify-content-center px-5">
-            <!-- <img
+            <img
               src="../assets/images/clinic-logo-footer.jpg "
               width="20%"
               alt=""
-            /> -->
-            <img
+            />
+            <!-- <img
               src="../assets/images/header-logo.png "
               width="30%"
               alt=""
-            />
+            /> -->
             <p class="title-footer">SUBSCRIBE TO OUR NEWSLETTER</p>
             <div>
               <form>

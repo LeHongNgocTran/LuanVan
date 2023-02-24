@@ -25,7 +25,7 @@ export default {
                     <div>Lịch hẹn có hiệu lực sau khi được xác nhận chính thức từ VETERINARY CLINIC</div>
                     <div>Vui lòng cung cấp thông tin chính xác để được phục vụ tốt nhất. Trong trường hợp cung cấp sai thông tin họ tên, điện thoại, việc xác nhận cuộc hẹn sẽ không có hiệu lực.</div>
                     <div>Quý khách sử dụng dịch vụ Đặt hẹn trực tuyến, xin vui lòng đặt trước ít nhất là 24 giờ trước khi đến khám.</div>
-                    <div>Trong những trường hợp khẩn cấp hoặc nghi ngờ có các triệu chứng nguy hiểm, quý khách nên hoặc <span class="text-danger"> ĐẾN TRỰC TIẾP</span> hoặc <span class="text-danger"> 0909 155 657 </span>để kịp thời xử lý.</div>
+                    <div>Trong những trường hợp khẩn cấp hoặc nghi ngờ có các triệu chứng nguy hiểm, quý khách nên hoặc <span class="text-danger"> ĐẾN TRỰC TIẾP</span> hoặc <span class="text-danger"> 0909 326 482 </span>để kịp thời xử lý.</div>
 
                     <div class="pt-4">
                         <!-- Button trigger modal -->

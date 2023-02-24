@@ -38,7 +38,12 @@ export default {
     >
       <!-- <b class="text-light ms-4 col-4 title-nav">VETERINARY CLINIC</b> -->
       <div class="logo">
-        <img src="../assets/images/header-logo.png" class="w-50 " alt="">
+        <!-- <img src="../assets/images/header-logo.png" class="w-50 " alt=""> -->
+        <img
+          src="../assets/images/clinic-logo-footer.jpg "
+          style="width: 70px !important"
+          alt=""
+        />
       </div>
       <div class="container-fluid col-7">
         <button
@@ -73,7 +78,7 @@ export default {
                 >
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="#">
                 <router-link
                   class="nav-link text-light page"
@@ -81,7 +86,26 @@ export default {
                   >Dịch vụ</router-link
                 >
               </a>
-            </li>
+            </li> -->
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <router-link
+                  class="nav-link text-light page"
+                  :to="{ name: 'Service' }"
+                  >Dịch vụ</router-link
+                >
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
             <li class="nav-item active">
               <a href="#" class="">
                 <router-link
@@ -106,6 +130,7 @@ export default {
     </nav>
   </header>
 </template>
+
 <style>
 @import "./PublicHeader.module.css";
 </style>

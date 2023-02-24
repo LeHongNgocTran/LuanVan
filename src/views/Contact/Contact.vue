@@ -64,8 +64,51 @@ export default {
         </div>
     </div>
     <hr>
+    <div class="py-4 px-5">
+        <h4 class=" text-center pb-5" style="font-size: 2rem; ">Personalized Pet Health Care. Made for Real Life</h4>
+        <div class="row">
+            <div class="col-3 px-5 text-center">
+                <div>
+                    <img src="../../assets/images/health-icon-1.png" alt="" class="img-fluid">
+                </div>
+                <h4 class="py-2">Unlimited Exam</h4>
+                <p>
+                    Visit us for as many exams as you need to keep your pet happy and healthy.
+                </p>
+            </div>
+            <div class="col-3 px-5 text-center">
+                <div>
+                    <img src="../../assets/images/health-icon-2.png" alt="" class="img-fluid">
+                </div>
+                <h4>Doctor Recommended Vaccine</h4>
+                <p>Prevent contagious and
+                    potentially deadly diseases
+                    with the essential vaccines
+                    your pet needs to thrive.</p>
+            </div>
+            <div class="col-3 px-5 text-center">
+                <div>
+                    <img src="../../assets/images/health-icon-3.png" alt="" class="img-fluid">
+                </div>
+                <h4>Microchipping and Annual Membership</h4>
+                <p>Rest easy knowing you have
+                    the best chance of finding
+                    your pet if they ever get lost.</p>
+            </div>
+            <div class="col-3 px-5 text-center">
+                <div>
+                    <img src="../../assets/images/health-icon-4.png" alt="" class="img-fluid">
+                </div>
+                <h4>Early Disease Detection and Diagnostic Testing</h4>
+                <p>Detect problems like diabetes
+                    or intestinal worms sooner with
+                    routine testing tailored to your
+                    pet's age.</p>
+            </div>
+        </div>
+    </div>
 
-    <div class="py-2">
+    <!-- <div class="py-2">
         <h3 class="text-center"><b>Chi nhánh</b></h3>
         <div class="row ml-4 mr-4 pb-4">
             <div class="col-4 text-right branch-position">Cần Thơ</div>
@@ -73,7 +116,7 @@ export default {
             <div class="col-4 text-left branch-position">Vĩnh Long</div>
         </div>
         <hr />
-    </div>
+    </div> -->
 </main>
 
 <PublicFooters />

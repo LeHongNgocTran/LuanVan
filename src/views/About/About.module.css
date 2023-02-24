@@ -15,6 +15,12 @@
     margin: auto;
     color: black;
   }
+  .sick-title:hover {
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: auto;
+    color: rgb(65, 64, 64);
+  }
   .sick-content,
   .branch-position {
     font-size: 1.1rem;
@@ -61,4 +67,60 @@
   .aboutus-detail{
     font-size: 1.2rem;
   }
+  /* .caption-img{
+    font-size: 1.2rem;
+    color: #000000;
+    position: absolute;
+    top: 8%;
+    left: 16%;
+} */
+/* .about-content{
+  padding: 20px 60px;
+} */
+.pet:hover{
+  opacity: 0.9;
+}
+
+  
+ .banner{
+  background-image: url("../../assets/images/about-banner.jpg");
+  width: 100%;
+  height: 500px;
+}
+
+.banner__information {
+  width: 30%;
+  margin-left: 100px;
+  
+}
+
+/* start-card */
+/* .text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.image {
+  
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.card-1 {
+  position: relative;
  
+} */
+/* end-card */
