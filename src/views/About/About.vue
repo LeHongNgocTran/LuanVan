@@ -12,6 +12,13 @@ export default {
 <template>
   <HeaderPublic />
   <main class="container-fluid">
+
+    <!-- <div class="w-100">
+          <img  
+          class="w-100 d-block"
+            alt='Logo' 
+            src="https://www.vippetcare.com/wp-content/uploads/2020/10/VIP_Homepage_Hero_1500w-tinypanda.jpg">
+        </div> -->
    
     <!--  ABOUT US -->
     <div class="container">
@@ -78,13 +85,13 @@ export default {
     <!-- ss -->
     <div class="col">
       <div class="ss1">
-        <div class="mt-2 mb-4">
-          <h3 class="text-center title-relate">LIÊN QUAN</h3>
+        <div class="my-5">
+          <h3 class="text-center w-25 bg-dark text-white py-2 fw-bold mx-auto ">LIÊN QUAN</h3>
         </div>
 
         <div class="d-flex justify-content-around">
           <div class="col-4">
-            <div class="card m-auto" style="width: 19rem">
+            <div class="card m-auto border" style="width: 19rem">
               <img
                 src="../../assets/images/dog-fever.jpg"
                 width="100%"

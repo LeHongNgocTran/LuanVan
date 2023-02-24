@@ -25,6 +25,7 @@
 
 main {
     background-color: white;
+    font-size: 1.2rem;
 }
 
 table {
@@ -51,5 +52,22 @@ table {
 .form-group input {
     margin-bottom: 10px ;
     margin-top: -10px;
+}
+
+.title-right {
+    font-weight:bold;
+   
+    font-family: 'ici-pbl';
+    font-size: 25px;
+    color: #055b72;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.attention{
+    font-size: 1.7rem;
+    color: #0c225e;
+    text-shadow: #80b5d7;
+    text-decoration: underline ;
 }
 

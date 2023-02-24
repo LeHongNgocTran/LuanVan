@@ -13,17 +13,19 @@ export default {
 <header-public />
 <main>
     <div class="d-flex justify-content-center container">
-        <div class="m-1 p-2 ">
-            <table class="table table-hover text-center border border-primary col-9">
+        <div>
+            <div class="m-1 row container">
+            <!-- spa room -->
+            <!-- <table class="table table-hover text-center border border-primary col-9">
                 <thead>
-                    <tr class="text-light bg-form">
+                    <tr class="text-light set-bg">
                         <th colspan="6 ">Bảng giá cả dịch vụ</th>
                     </tr>
-                    <tr class="text-dark use-color">
+                    <tr class="text-dark set-bg">
                         <th colspan="2" rowspan="2">Dịch vụ</th>
                         <th colspan="4">Giá</th>
                     </tr>
-                    <tr class="text-dark use-color">
+                    <tr class="text-dark set-bg">
                         <td scope="col " colspan="2">Mèo</td>
                         <td scope="col" colspan="2">Chó</td>
                     </tr>
@@ -63,14 +65,87 @@ export default {
                         <td colspan="2">230.000</td>
                     </tr>
                 </thead>
-            </table>
-            <div class="">
-                <h6 class=""><b> Ghi chú:</b></h6>
-                <textarea rows="3" cols="90" class="px-2"></textarea>
+            </table> -->
+            <div class="col-6">
+                <table class="table table-bordered border-light">
+                    <tr class="text-lightablet set-bg text-center text-light fw-normal">
+                        <th colspan="6 ">Bảng giá cả dịch vụ</th>
+                    </tr>
+                    <tr class="set-bg text-light">
+                        <td colspan="" class=""></td>
+                        <td colspan="" class="">0 -5 kg</td>
+                        <td colspan="" class="">Trên 5kg</td>
+                    </tr>
+                 
+                    <tr class=" ">
+                        <td colspan="">Cắt móng- mài móng</td>
+                        <td colspan="">50k</td>
+                        <td colspan="">70kg</td>
+                    </tr>
 
+                    <tr class=" ">
+                        <td colspan="">Cạo vệ sinh: bụng, lông bàn chân</td>
+                        <td colspan="">60k</td>
+                        <td colspan="">80kg</td>
+                    </tr>
+                    <tr class=" ">
+                        <td colspan="">Cắt tỉa mặt( dựa theo tình trạng lông)</td>
+                        <td colspan="2" class="text-center">50k</td>
+                    </tr>
+                    <tr class=" ">
+                        <td colspan="">Cắt tỉa mông( trái tim) và 4 chân</td>
+                        <td colspan="2" class="text-center">70k</td>
+                    </tr>
+
+                </table>
             </div>
 
-            <!-- Button trigger modal -->
+            <div class="col-6">
+                <table class="table table-bordered border-light">
+                    <tr class="set-bg text-light">
+                        <td colspan="" class="">Dịch vụ</td>
+                        <td colspan="2" class="">Giá</td>
+                    </tr>
+                    <tr class="set-bg text-light">
+                        <td colspan="" class=""></td>
+                        <td colspan="" class="">0 -5 kg</td>
+                        <td colspan="" class="">Trên 5kg</td>
+                    </tr>
+
+                    <tr class=" ">
+                        <td colspan="">Nhuộm 2 tai</td>
+                        <td colspan="">250k</td>
+                        <td colspan="">350k</td>
+                    </tr>
+                    <tr class=" ">
+                        <td colspan="">Nhuộm đuôi</td>
+                        <td colspan="">100k</td>
+                        <td colspan="">150k</td>
+                    </tr>
+
+                    <tr class=" ">
+                        <td colspan="">Nhuộm 2 tai- đuôi</td>
+                        <td colspan="">300k</td>
+                        <td colspan="">450k</td>
+                    </tr>
+
+                    <tr class=" ">
+                        <td colspan="">Combo 2 tai- đuôi- chân</td>
+                        <td colspan="">650k</td>
+                        <td colspan="">750k</td>
+                    </tr>
+
+
+                   
+                </table>
+
+            </div>
+         
+        <!-- button submit -->
+           
+        </div>
+        <div>
+            <div class="d-flex justify-content-center">
             <button type="button" class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Đăng ký dịch vụ
             </button>
@@ -115,6 +190,29 @@ export default {
                                             <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
                                             <p class="form-check-label col" for="flexRadioDefault2">
                                                 Mèo
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <!-- <td class="d-flex justify-content-start">
+                                        
+                                        <span class="text-danger fw-bold">*</span>
+                                    </td> -->
+                                    <td>
+                                        <div class="form-check">
+                                            <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                                            <p class="form-check-label col" for="flexRadioDefault2">
+                                                Lông ngắn
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-check">
+                                            <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                                            <p class="form-check-label col" for="flexRadioDefault2">
+                                                Lông dài
                                             </p>
                                         </div>
                                     </td>
@@ -263,7 +361,8 @@ export default {
                                 </div>
                             </div>
                         </div>
-                        <div class="modal-footer">
+                        <div class="">
+                            <div class="modal-footer">
                             <button type="button" class="btn btn-secondary text-light" data-bs-dismiss="modal">
                                 Hủy
                             </button>
@@ -271,11 +370,24 @@ export default {
                                 Đặt lịch ngay
                             </button>
                         </div>
+
+                        </div>
+                       
                     </div>
                 </div>
             </div>
         </div>
+
+        </div>
+        
+
+        </div>
+        
+
+        
     </div>
+
+    
 </main>
 
 <public-footers />

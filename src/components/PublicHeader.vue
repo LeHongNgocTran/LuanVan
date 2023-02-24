@@ -1,42 +1,45 @@
 <script>
-import { userAccStore } from "@/Store/userStore";
+// import { userAccStore } from "@/Store/userStore";
 
 export default {
-  setup() {
-    const taikhoan = userAccStore();
-    return { taikhoan };
-  },
-  methods: {
-    logout() {
-      this.taikhoan.user = {};
-      this.$router.push({ name: "Login" });
-    },
-  },
+  // setup() {
+  //   const taikhoan = userAccStore();
+  //   return { taikhoan };
+  // },
+  // methods: {
+  //   logout() {
+  //     this.taikhoan.user = {};
+  //     this.$router.push({ name: "Login" });
+  //   },
+  // },
 };
 </script>
 
 <template>
   <header>
-    <div
-      class="bg-light d-flex flex-row justify-content-end row-login py-2"
-      style="height: 40px"
-    >
-      <p class="fw-bold">
-        <router-link class="nav-link text-dark" :to="{ name: 'Login' }"
-          >Đăng nhập</router-link
-        >
-      </p>
-      <i
-        class="fa-solid fa-bell border-start border-dark border-1 ps-2 pt-1"
-      ></i>
+    <div class="bg-light">
+      <div
+        class="container d-flex flex-row justify-content-end row-login py-2"
+        style="height: 40px"
+      >
+        <p class="fw-bold">
+          <router-link class="nav-link text-dark" :to="{ name: 'Login' }"
+            >Đăng nhập</router-link
+          >
+        </p>
+        <i
+          class="fa-solid fa-bell border-start border-dark border-1 ps-2 pt-1"
+        ></i>
+      </div>
     </div>
     <nav
       class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-header ftco-navbar-light"
       id="ftco-navbar"
     >
-      <b class="text-light ms-4 col-4 title-nav"
-        >VETERINARY CLINIC</b
-      >
+      <!-- <b class="text-light ms-4 col-4 title-nav">VETERINARY CLINIC</b> -->
+      <div class="logo">
+        <img src="../assets/images/header-logo.png" class="w-50 " alt="">
+      </div>
       <div class="container-fluid col-7">
         <button
           class="navbar-toggler"
@@ -98,13 +101,11 @@ export default {
               </a>
             </li>
           </ul>
-          
         </div>
       </div>
     </nav>
   </header>
 </template>
 <style>
-
 @import "./PublicHeader.module.css";
 </style>

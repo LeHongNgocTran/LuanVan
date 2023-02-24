@@ -53,3 +53,21 @@ table {
     margin-top: -10px;
 }
 
+
+.price-list{
+    background-color: rgb(248, 224, 171);
+    opacity: 0.9;
+    margin: 0% 15%;
+    margin-top: 5%;
+}
+.table th,
+.table td,
+.table tr,
+.table thead tr th,
+.table tbody tr td {
+    border: 1px solid rgb(100, 99, 99);
+    font-size: 1.2rem;
+}
+.set-bg{
+    background-color: #e59b44;
+}
