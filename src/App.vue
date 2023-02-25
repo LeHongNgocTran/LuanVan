@@ -1,15 +1,11 @@
 <template>
-<!-- Sinh vien -->
-
 <!-- <header-public /> -->
 
-    <div class='p-0'>
+    <div>
         <router-view></router-view>
     </div>
 
     <!-- <public-footers /> -->
-
-<!-- Admin -->
 
 <!-- <div class="admin" v-if="permission == 2">
  <div class="admin"> 

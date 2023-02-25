@@ -37,7 +37,7 @@ export default {
                 information and tips you need. We use our Purina experts to cover topics
                 like dog and cat health, nutrition, behavior, training and more.
             </h5>
-            <btn class="border bg-danger text-white text-uppercase fw-600 rounded-2  w-50 py-2 px-3 text-center mt-5">Read tips from our experts</btn>
+            <button class="border bg-danger text-white  fw-600 rounded-2  w-75 py-2 px-5 text-center mt-2" style="font-size: 17px;">Read tips from our experts</button>
         </div>
     </div>
 

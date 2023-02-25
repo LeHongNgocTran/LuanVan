@@ -14,7 +14,7 @@ export default {
 <main>
     <div class="d-flex justify-content-center container">
         <div class="m-1 p-2 ">
-            <h2 class="title-right text-center">Chuẩn đoán và điều trị</h2>
+            <h2 class="title-right text-center fw-bold" style="font-size:40px;">Chuẩn đoán và điều trị</h2>
             <div class="d-flex justify-content-center pb-3">
                 <img src="../../../assets/images/logo-cat-dog.png" alt="">
             </div>
@@ -22,14 +22,14 @@ export default {
 
                 <div class="col-6 p-3">
                     <p class="attention">Lưu ý:</p>
-                    <div>Lịch hẹn có hiệu lực sau khi được xác nhận chính thức từ VETERINARY CLINIC</div>
+                    <div>Lịch hẹn có hiệu lực sau khi được xác nhận chính thức từ VETERINARY CLINIC.</div>
                     <div>Vui lòng cung cấp thông tin chính xác để được phục vụ tốt nhất. Trong trường hợp cung cấp sai thông tin họ tên, điện thoại, việc xác nhận cuộc hẹn sẽ không có hiệu lực.</div>
                     <div>Quý khách sử dụng dịch vụ Đặt hẹn trực tuyến, xin vui lòng đặt trước ít nhất là 24 giờ trước khi đến khám.</div>
-                    <div>Trong những trường hợp khẩn cấp hoặc nghi ngờ có các triệu chứng nguy hiểm, quý khách nên hoặc <span class="text-danger"> ĐẾN TRỰC TIẾP</span> hoặc <span class="text-danger"> 0909 326 482 </span>để kịp thời xử lý.</div>
+                    <div>Trong những trường hợp khẩn cấp hoặc nghi ngờ có các triệu chứng nguy hiểm, quý khách nên hoặc <span class="text-danger fw-bold"> ĐẾN TRỰC TIẾP</span> hoặc <span class="text-danger fw-bold"> 0909 326 482 </span>để kịp thời xử lý.</div>
 
                     <div class="pt-4">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" class="btn btn-primary text-light" style="font-size: 20px;" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Đăng ký khám bệnh
                         </button>
 
@@ -38,7 +38,7 @@ export default {
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content ">
                                     <div class="modal-header">
-                                        <h5 class="modal-title text-uppercase" id="exampleModalLabel">
+                                        <h5 class="modal-title text-uppercase mt-4" id="exampleModalLabel">
                                             Đăng ký khám bệnh
                                         </h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
